@@ -1,9 +1,8 @@
-Template for the Read the Docs tutorial
+Meso-NH's newsletters
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+This Git repository is link to readthedocs.
 
-Read the tutorial here:
+Read the documentation here:
 
-https://docs.readthedocs.io/en/stable/tutorial/
+https://mesonh-newsletters.readthedocs.io
