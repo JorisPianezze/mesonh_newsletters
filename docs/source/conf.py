@@ -47,7 +47,7 @@ html_logo = 'LogoMesoNH-small.png'
 #}
 
 html_theme_options = {
-'repository_url': 'https://github.com/JorisPianezze/mesonh_beta_test_guide',
+'repository_url': 'https://github.com/JorisPianezze/mesonh_newsletters',
 'use_repository_button': True,
 #'logo_only': True,
 }
