@@ -73,8 +73,8 @@ Dernières publications utilisant Méso-NH
 ****************************************************************************************
 
 Air-sea interactions
-  - "The wave-age-dependent stress parameterisation (WASP) for momentum and heat turbulent fluxes at sea in SURFEX v8.1", :cite:t:`bouin_wave-age-dependent_2024`
-  - "A numerical study of ocean surface layer response to atmospheric shallow convection: impact of cloud shading, rain and cold pool", :cite:t:`brilouet_numerical_2024`
+  - "The wave-age-dependent stress parameterisation (WASP) for momentum and heat turbulent fluxes at sea in SURFEX v8.1", [`Bouin et al., 2024 <https://doi.org/10.5194/gmd-17-117-2024>`_] :cite:t:`bouin_wave-age-dependent_2024`
+  - "A numerical study of ocean surface layer response to atmospheric shallow convection: impact of cloud shading, rain and cold pool", [`Brilouet et al., 2024 <https://doi.org/10.1002/qj.4651>`_] :cite:t:`brilouet_numerical_2024`
 
 Boundary layer processes
   - "Coherent subsiding structures in large eddy simulations of atmospheric boundary layers Brient", Couvreux et al. 2024
