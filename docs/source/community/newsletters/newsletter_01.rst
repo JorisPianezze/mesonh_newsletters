@@ -77,13 +77,13 @@ Air-sea interactions
   - "A numerical study of ocean surface layer response to atmospheric shallow convection: impact of cloud shading, rain and cold pool", [`Brilouet et al., 2024 <https://doi.org/10.1002/qj.4651>`_] :cite:t:`brilouet_numerical_2024`
 
 Boundary layer processes
-  - "Coherent subsiding structures in large eddy simulations of atmospheric boundary layers Brient", Couvreux et al. 2024
-  - "Breakdown of the velocity and turbulence in the wake of a wind turbine – Part 1: Large-eddy-simulation study", Jézéquel et al. 2024a
-  - "Breakdown of the velocity and turbulence in the wake of a wind turbine – Part 2: Analytical modeling", Jézéquel et al. 2024b
-  - "Impact of surface turbulent fluxes on the formation of convective rolls in a Mediterranean windstorm", Lfarh et al. 2024
+  - "Coherent subsiding structures in large eddy simulations of atmospheric boundary layers Brient", [`Brient et al., 2024 <https://doi.org/10.1002/qj.4625>`_] Couvreux et al. 2024
+  - "Breakdown of the velocity and turbulence in the wake of a wind turbine – Part 1: Large-eddy-simulation study", [`Jézéquel et al., 2024a <https://doi.org/10.5194/wes-9-97-2024>`_]
+  - "Breakdown of the velocity and turbulence in the wake of a wind turbine – Part 2: Analytical modeling", [`Jézéquel et al., 2024b <https://doi.org/10.5194/wes-9-119-2024>`_]
+  - "Impact of surface turbulent fluxes on the formation of convective rolls in a Mediterranean windstorm", [`Lfarh et al., 2024 <https://doi.org/10.22541/essoar.169774560.07703883/v1>`_]
 
 Fire meteorology
-  - "Numerical investigation of the Pedrógão Grande pyrocumulonimbus using a fire to atmosphere coupled model", Couto et al. 2024
+  - "Numerical investigation of the Pedrógão Grande pyrocumulonimbus using a fire to atmosphere coupled model", [`Couto et al., 2024 <https://doi.org/10.1016/j.atmosres.2024.107223>`_]
 
 Aerosols and their interactions with clouds and dynamics:
   - "Fractional solubility of iron in mineral dust aerosols over coastal Namibia: a link to marine biogenic emissions?", Desboeufs et al. 2024
