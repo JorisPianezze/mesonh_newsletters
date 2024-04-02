@@ -1,4 +1,4 @@
-Newsletter #01
+Infolettre #01
 ================================================
 
 Le 4 avril 2024. Version française, English version here.
