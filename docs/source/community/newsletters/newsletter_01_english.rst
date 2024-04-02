@@ -1,7 +1,7 @@
 Newsletter #01
 ================================================
 
-Le 4 avril 2024. English version, version française ici.
+Le 4 avril 2024. English version, version française: :doc:`newsletter_01.rst`
 
 Dear Meso-NH users,
 
