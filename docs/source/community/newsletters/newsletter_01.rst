@@ -1,7 +1,7 @@
-Newsletter #01 - proposition Joris
+Newsletter #01
 ================================================
 
-Le 4 avril 2024
+Le 4 avril 2024. Version française, English version here.
 
 Chers utilisateurs, chères utilisatrices de Méso-NH,
 
