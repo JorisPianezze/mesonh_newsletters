@@ -1,9 +1,7 @@
 Newsletter #01 - proposition Joris
 ================================================
 
-.. warning::
-
-   Mettre une date de parution ?
+Le 4 avril 2024
 
 Chers utilisateurs, chères utilisatrices de Méso-NH,
 
@@ -32,7 +30,7 @@ Quelles sont les limites ? Dans quel cas cette option est-elle plutôt à évite
 
 .. note::
 
-   Si vous aussi vous souhaitez expliquer un développement que vous avez mis en place dans Méso-NH, ou une méthode d’analyse que vous partagez à la communauté, n’hésitez pas à me le signaler par* `mail <mailto:thibaut.dauhut@aero.obs-mip.fr>`_.
+   Si vous aussi vous souhaitez expliquer un développement que vous avez mis en place dans Méso-NH, ou une méthode d’analyse que vous partagez à la communauté, n’hésitez pas à me le signaler par `mail <mailto:thibaut.dauhut@aero.obs-mip.fr>`_.
 
 Les nouvelles de l’équipe support
 ***********************************
@@ -48,12 +46,12 @@ Version 5.7.1 (en developpement)
   - La gestion de tous les fichiers a été réorganisée en interne. Par exemple, on ne stockera plus dès le début la totalité de la liste des fichiers de reprise (*backups*) et de sorties fréquentes (*outputs*). Le gain en espace mémoire n'est pas du tout négligeable lorsque le nombre de backups et d'outputs est important surtout si les I/O parallèles sont activées. Pour cela, il faut spécifier les instants d'écriture avec les options en fréquence dans les namelistes (ie utiliser XBAK_TIME_FREQ et non XBAK_TIME).
   - La compression (sans pertes) sera possible pour tous les fichiers écrits (au format netCDF).
   - Pour les trajectoires lagrangiennes (programme DIAG), les champs seront maintenant stockés dans des variables 4D (x, y, z, t) et non plus dans des variables différentes pour chaque instant (fichier plus lisible et moins de *post-processing* à réaliser).
-  - Les fichiers de reprise (*backups*) pourront être écrits avec diminuation de la précision des nombres en virgule flottante (attention : option dangereuse).
+  - Les fichiers de reprise (*backups*) pourront être écrits avec diminution de la précision des nombres en virgule flottante (attention : option dangereuse).
   - Même fonctionnalité pour les fichiers écrits par DIAG.
   - Pour l’étape DIAG : il sera possible d'écrire directement XT_traj, RV_traj (PW).
 
 Développement en cours
-  - Chimie/aérosols : un projet a commencé à restructurer la chimie et les aérosols dans les modèles de Météo-France (ARPEGE, MOCAGE, AROME, MéSONH) pour externaliser la chimie et les aérosols. Le travail est en cours, les routines impactées seront nombreuses notamment à l'intérieur de ch_monitorn.f90, les ch_* et tous les *aer*.
+  - Chimie/aérosols : un projet a commencé à restructurer la chimie et les aérosols dans les modèles de Météo-France (ARPEGE, MOCAGE, AROME, MESO-NH) pour externaliser la chimie et les aérosols. Le travail est en cours, les routines impactées seront nombreuses notamment à l'intérieur de ch_monitorn.f90, les ch_* et tous les *aer*.
   - Version 6.0 : le développement de la prochaine version majeure a commencé par la montée de version de la branche GPU (MNH-55X-dev-OPENACC-FFT) phasé sur la 5.6 dans un premier temps sans PHYEX. Cette nouvelle branche MNH-56X-dev-OPENACC-FFT-unlessPHYEX tourne sur GPU sur quelques tests. Des tests de performances sur les architectures avec GPU (AMD et Nvidia) ont été réalisés, mais cette branche n’a pas encore été validée sur CPU. Les directives OpenACC sont en cours de portage (manuel) dans PHYEX.
   - SURFEX :  les modifications des fichiers dans SURFEX sont remontés au dépot de SURFEX-offline officiel pour la prochaine version 9.2.
   - ECRAD va prochainement faire peau neuve : suppression de la version (non open-source) 1.0.1, branchement d'une version plus récente.
@@ -73,8 +71,8 @@ Dernières publications utilisant Méso-NH
 ****************************************************************************************
 
 Air-sea interactions
-  - "The wave-age-dependent stress parameterisation (WASP) for momentum and heat turbulent fluxes at sea in SURFEX v8.1", [`Bouin et al., 2024 <https://doi.org/10.5194/gmd-17-117-2024>`_] :cite:t:`bouin_wave-age-dependent_2024`
-  - "A numerical study of ocean surface layer response to atmospheric shallow convection: impact of cloud shading, rain and cold pool", [`Brilouet et al., 2024 <https://doi.org/10.1002/qj.4651>`_] :cite:t:`brilouet_numerical_2024`
+  - The wave-age-dependent stress parameterisation (WASP) for momentum and heat turbulent fluxes at sea in SURFEX v8.1 [`Bouin et al., 2024 <https://doi.org/10.5194/gmd-17-117-2024>`_]
+  - A numerical study of ocean surface layer response to atmospheric shallow convection: impact of cloud shading, rain and cold pool [`Brilouet et al., 2024 <https://doi.org/10.1002/qj.4651>`_]
 
 Boundary layer processes
   - "Coherent subsiding structures in large eddy simulations of atmospheric boundary layers Brient", [`Brient et al., 2024 <https://doi.org/10.1002/qj.4625>`_] Couvreux et al. 2024
