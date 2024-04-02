@@ -1,4 +1,4 @@
-Newsletters (TD)
+Newsletters
 ================================================
 
 .. toctree::
@@ -6,3 +6,5 @@ Newsletters (TD)
    :maxdepth: 2
 
    newsletter_01.rst
+
+   newsletter_01_english.rst
