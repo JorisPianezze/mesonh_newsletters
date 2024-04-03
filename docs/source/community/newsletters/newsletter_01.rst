@@ -3,6 +3,8 @@ Infolettre #01
 
 **4 avril 2024.** Version française, English version `here <newsletter_01_english.html>`_.
 
+ 
+
 Chers utilisateurs, chères utilisatrices de Méso-NH,
 
 Voici la 1ère infolettre de notre communauté Méso-NH. Vous y trouverez un entretien avec un développeur de Méso-NH, les dernières nouvelles de l’équipe support et la liste des dernières publications utilisant Méso-NH.
