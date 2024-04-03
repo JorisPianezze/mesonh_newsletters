@@ -107,5 +107,5 @@ Enjoy simulating with Méso-NH!
 
 See you soon,
 
-Thibaut
-and the entire support team
+Thibaut Dauhut and the entire support team
+  Jean-Pierre Chaboureau, Juan Escobar, Joris Pianezze, Didier Ricard, Quentin Rodier and Philippe Wautelet.
