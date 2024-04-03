@@ -63,7 +63,7 @@ Current developments
   - A comparison of Meso-NH with other competing models in terms of performance is underway.
 
 Development under consideration
-  - In outputs, we are currently looking into the possibility of writing fields on sub-domains rather than on the entire grid.
+  - For the *frequent outputs*, we are currently looking into the possibility of writing fields on sub-domains rather than on the entire grid.
 
 Other news
   - The Meso-NH course went well with 11 trainees from various institutions (ONERA, Université de Lille, Université de Corse, LAERO, SUPAERO and CNRM) from 4 to 7 March 2024. The next course will take place from 12 to 15 November 2024.
