@@ -1,7 +1,7 @@
 Infolettre #01
 ================================================
 
-Le 4 avril 2024. Version française, English version `here <newsletter_01_english.rst>`_.
+**4 avril 2024.** Version française, English version `here <newsletter_01_english.html>`_.
 
 Chers utilisateurs, chères utilisatrices de Méso-NH,
 
