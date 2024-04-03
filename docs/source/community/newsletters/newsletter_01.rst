@@ -63,10 +63,11 @@ Développement en cours
   - Une comparaison de Méso-NH avec d'autres modèles concurrents en termes de performance est en cours.
 
 Développement en cours de réflexion
-  Dans les sorties fréquentes (*outputs*) la possibilité d'écrire des champs sur des sous-domaines plutôt que sur toute la grille est actuellement à l'étude.
+  - Dans les sorties fréquentes (*outputs*) la possibilité d'écrire des champs sur des sous-domaines plutôt que sur toute la grille est actuellement à l'étude.
 
 Autres nouvelles
-  Le stage Méso-NH s'est bien déroulé avec 11 stagiaires de différents établissements (ONERA, Université de Lille, Université de Corse, LAERO, SUPAERO et CNRM) du 4 au 7 mars 2024. Le prochain stage aura lieu du 12 au 15 novembre 2024.
+  - Le stage Méso-NH s'est bien déroulé avec 11 stagiaires de différents établissements (ONERA, Université de Lille, Université de Corse, LAERO, SUPAERO et CNRM) du 4 au 7 mars 2024. Le prochain stage aura lieu du 12 au 15 novembre 2024.
+  - Paul Boumendil, doctorant CNRM/IFPEN propose un tutoriel pour utiliser des bases de données à résolution métrique pour la description des couvers de surface avec Méso-NH/SURFEX. Pour obtenir une résolution précise du type de surface en utilisant ECOCLIMAP, il a utilisé Geoclimate pour récupérer les données de type de surface d'OpenStreetMap, puis il a associé à chaque type de sol une COVER d'ECOCLIMAP. La carte est ensuite rasterisée et enregistrée au format "Lat Lon Cover" pour être utilisée en entrée lors de l'étape de PREP de Méso-NH. Un tutoriel ainsi qu'un exemple de cette utilisation d'ECOCLIMAP seront bientôt disponibles sur le site de Meso-NH. En attendant il est disponible `ici <https://github.com/QuentinRodier/tuto-MNH-HighResCover/blob/main/Tutorial.ipynb>`_.
 
 
 Dernières publications utilisant Méso-NH
