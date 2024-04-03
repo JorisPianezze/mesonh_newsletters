@@ -3,6 +3,8 @@ Newsletter #01
 
 **4 April 2024.** English version, version française `ici <newsletter_01.html>`_.
 
+ 
+
 Dear Meso-NH users,
 
 This is the 1st newsletter from our Meso-NH community. You'll find an interview with a Meso-NH developer, the latest news from the support team and a list of the latest publications using Meso-NH.
