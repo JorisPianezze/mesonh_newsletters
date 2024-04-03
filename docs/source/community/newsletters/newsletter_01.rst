@@ -41,7 +41,7 @@ Version 5.7.0
   - La version 5.7 a été développée, évaluée et validée de septembre à décembre 2023. Plus d'infos `ici <http://mesonh.aero.obs-mip.fr/mesonh57/BooksAndGuides?action=AttachFile&do=view&target=update_from_masdev56_to_570.pdf>`_. 
   - A noter également : pour l’étape DIAG, le bogue LGXT dans compute_r00 a été corrigé, des variables supplémentaires (vent, nuages, aérosols, …) du temps courant ont été ajoutées, les valeurs négatives ont été changées par XFILLVALUE.
 
-Version 5.7.1 (en developpement)
+Version 5.7.1 (en développement)
   - Tous les cas tests ont été ajoutés dans un commit de la branche MNH-57-branch.
   - Les noms de fichiers seront plus flexibles (CEXP et CSEG pouvant aller jusqu'à 32 caractères, modifiable au besoin).
   - Le nombre de fichiers de couplage ne sera plus limité (était de 24, maintenant à 1000 et extensible si nécessaire).
