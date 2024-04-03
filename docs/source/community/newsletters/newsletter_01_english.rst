@@ -63,10 +63,11 @@ Current developments
   - A comparison of Meso-NH with other competing models in terms of performance is underway.
 
 Development under consideration
-  In outputs, we are currently looking into the possibility of writing fields on sub-domains rather than on the entire grid.
+  - In outputs, we are currently looking into the possibility of writing fields on sub-domains rather than on the entire grid.
 
 Other news
-  The Meso-NH course went well with 11 trainees from various institutions (ONERA, Université de Lille, Université de Corse, LAERO, SUPAERO and CNRM) from 4 to 7 March 2024. The next course will take place from 12 to 15 November 2024.
+  - The Meso-NH course went well with 11 trainees from various institutions (ONERA, Université de Lille, Université de Corse, LAERO, SUPAERO and CNRM) from 4 to 7 March 2024. The next course will take place from 12 to 15 November 2024.
+  - Paul Boumendil, a CNRM/IFPEN PhD student, offers a tutorial on how to use metric-resolution databases to describe surface slopes with Meso-NH/SURFEX. To obtain precise surface type resolution using ECOCLIMAP, he used Geoclimate to retrieve surface type data from OpenStreetMap, then associated each soil type with an ECOCLIMAP COVER. The map was then rasterised and saved in "Lat Lon Cover" format for use as input to the Meso-NH PREP stage. A tutorial and an example of this use of ECOCLIMAP will soon be available on the Meso-NH website. In the meantime it is available `here <https://github.com/QuentinRodier/tuto-MNH-HighResCover/blob/main/Tutorial.ipynb>`_.
 
 
 Latest publications using Meso-NH
