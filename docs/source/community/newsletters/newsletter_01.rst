@@ -108,4 +108,4 @@ Bonnes simulations avec Méso-NH !
 A bientôt,
 
 Thibaut Dauhut et toute l’équipe support
-  Jean-Pierre Chaboureau, Juan Escobar, Joris Pianezze, Didier Ricard, Quentin Rodier and Philippe Wautelet.
+  Philippe Wautelet, Quentin Rodier, Didier Ricard, Joris Pianezze, Juan Escobar and Jean-Pierre Chaboureau
