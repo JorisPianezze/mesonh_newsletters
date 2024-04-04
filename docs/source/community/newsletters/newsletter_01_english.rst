@@ -104,7 +104,7 @@ Chemistry and atmospheric composition:
 
    If you would like to share with the community the fact that one of your projects using Meso-NH has been funded or any other communication about your work (in particular posters and presentations available online), please do not hesitate to write to me. I'd also be delighted to hear your views on the proposed format for these newsletters.
 
-Enjoy simulating with Méso-NH!
+Enjoy simulating with Meso-NH!
 
 See you soon,
 
