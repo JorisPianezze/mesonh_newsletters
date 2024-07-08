@@ -41,7 +41,7 @@ References
   - Object-oriented identification of coherent structures in large-eddy simulations: importance of downdrafts in stratocumulus [`Brient et al., 2019 <https://doi.org/10.1029/2018GL081499>`_]
   - Coherent subsiding structures in large eddy simulations of atmospheric boundary layers [`Brient et al., 2024 <https://doi.org/10.1002/qj.4625>`_]
 
-.. figure:: Snapshot-video-florent-brient.jpg
+.. figure:: newsletter02_fig.jpg
 
    |location_link|. Diurnal deepening of a continental boundary layer. 2D simulation of the IHOP Dry Convective Boundary Layer. Surface-emitted passive tracer concentration is in red, and concentration of passive tracer emitted at the domain-mean boundary-layer top is in green contours. The boundary layer top is shown with the horizontal dashed black line.
 
