@@ -8,3 +8,7 @@ Newsletters
    newsletter_01.rst
 
    newsletter_01_english.rst
+
+   newsletter_02.rst
+
+   newsletter_02_en.rst
