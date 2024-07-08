@@ -11,4 +11,4 @@ Newsletters
 
    newsletter_02.rst
 
-   newsletter_02_en.rst
+   newsletter_02_english.rst
