@@ -12,3 +12,7 @@ Newsletters
    newsletter_02.rst
 
    newsletter_02_english.rst
+
+   newsletter_03.rst
+
+   newsletter_03_english.rst
