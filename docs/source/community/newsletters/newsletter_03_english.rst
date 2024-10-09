@@ -37,7 +37,7 @@ What recommendations would you make to users wishing to simulate on a GPU?
 What are the current limitations of this Meso-NH port, and what are the prospects?
   At present, only part of the code has been ported to the GPU, and that's in version MNH-5-5-1, so we have to run simulations with this version of the code.
 
-  With the introduction of PHYEX, in versions MNH-5-6-X and MNH-5-7-X, some of the GPU porting work carried out has been lost (notably turbulence, ICE3 and sub-mesh condensation). However, Quentin Rodier and Sebastien Riette at CNRM are in charge of porting PHYEX to the GPU using the DSL (*Domain Specific Language*) methodology chosen by Météo-France. To this end, they have developed a Python pre-compiler, `pyft_tool <https://github.com/UMR-CNRM/pyft>`, enabling semi-automatic transformation of code for porting to GPUs. The library transforms the code on the fly before compiling it on GPUs, resulting in a slightly leaner source code.
+  With the introduction of PHYEX, in versions MNH-5-6-X and MNH-5-7-X, some of the GPU porting work carried out has been lost (notably turbulence, ICE3 and sub-mesh condensation). However, Quentin Rodier and Sebastien Riette at CNRM are in charge of porting PHYEX to the GPU using the DSL (*Domain Specific Language*) methodology chosen by Météo-France. To this end, they have developed a Python pre-compiler, `pyft_tool <https://github.com/UMR-CNRM/pyft>`_, enabling semi-automatic transformation of code for porting to GPUs. The library transforms the code on the fly before compiling it on GPUs, resulting in a slightly leaner source code.
 
   Phillippe Wautelet and I are collaborating with them, contributing our GPU and OpenACC expertise to add the necessary functionalities to this pyft tool to transform PHYEX code in MNH-5-6-X and adapt it to GPUs. These features include “hand-made tools” for porting Meso-NH to GPUs, such as the automatic addition of calls to bit-reproducible mathematical functions, the automatic addition of calls to MPPDB_CHECK routines for “run-time” verification of the identity of calculations on GPU and CPU, optimized memory management for arrays, expansion of *array syntax* in nested loops, etc.
 
@@ -51,4 +51,69 @@ What are the current limitations of this Meso-NH port, and what are the prospect
    An article under discussion in *Geosci. Model Dev.* relates the work of porting Meso-NH to GPU, it is available `online here <https://doi.org/10.5194/egusphere-2024-2879>`_ and in pdf: `Escobar et al. (2024) <https://egusphere.copernicus.org/preprints/2024/egusphere-2024-2879/egusphere-2024-2879.pdf>`_.
 
    If you too would like to explain a development you've implemented in Meso-NH, or an analysis method you share with the community, please don't hesitate to let me know by `mail <mailto:thibaut.dauhut@univ-tlse3.fr>`_.
+
+News from the support team
+*******************************
+
+Version 5.7.1 (released September 4)
+  - List of bugfixes and main new developments `here <http://mesonh.aero.obs-mip.fr/mesonh57/Download?action=AttachFile&do=view&target=WHY_BUGFIX_571.pdf>`_
+  - Note that all test cases (namelists and launch scripts) are now historized and can be found in MY_RUN/INTEGRATION_CASES
+
+Version 5.8
+  A call for contributions will be launched in December. All contributions ready for December 2024, i.e. tested and delivered with a (new) test case, will be considered for integration.
+
+Current and recent developments
+  - Chemistry/aerosols: the ACCALMIE project continues to restructure chemistry and aerosols in Météo-France models (ARPEGE, MOCAGE, AROME, MESO-NH) to externalize chemistry and aerosols. The ACLIB (Aerosols and Chemistry LIBrary) is currently being set up. Numerous routines will be impacted, notably inside ch_monitorn.f90, ch_* and all *aer*.
+  - Version 6.0: development of the next major version has begun with the upgrade of the GPU branch (MNH-55X-dev-OPENACC-FFT) phased on 5.6 initially without PHYEX. This new MNH-56X-dev-OPENACC-FFT-unlessPHYEX branch is running on GPUs on some tests. Performance tests on GPU architectures (AMD and Nvidia) have been carried out, but this branch has not yet been validated on CPUs. The OpenACC guidelines are currently being ported (manually) to PHYEX. Turbulence has been ported. Now it's ICE3's turn. The branch is compiling on Belenos!
+  - Tools: added functionality to the `Python Fortran Tool <https://github.com/UMR-CNRM/pyft>` library to automatically handle certain transformations of Meso-NH source code to produce code that runs on GPUs.
+  - Software forge: the git repository host koda.cnrs has been tested. Migration on October 15. Branches on MNH-ladev will be removed unless a request to the contrary is sent to support for a particular branch.
+  - Showcase site: procedures identified for domain name and hosting.
+  - Coupling: parallel compilation of Meso-NH debugged when OASISAUTO is activated.
+
+Clean output files
+  - useless (because empty) .des files will no longer be written. This mainly concerns PGD and DIAG files.
+  - files containing detailed statistics on pressure solver performance are no longer written. If necessary, simply change the GFULLSTAT_PRESS_SLV parameter in modeln.f90 to regenerate them.
+  - the file_for_xtransfer file has also disappeared (along with a few bits of code no longer required).
+  - the OUTPUT_LISTING0 file is retained unless it is empty (Meso-NH automatically destroys it at the end; it will continue to exist during execution and in the event of a crash). This applies mainly to the MESONH executable and if no additional output is made to this file (there is some in a few places in the code).
+
+Meso-NH course
+  - The next course will take place from November 12 to 15, 2024. Schedule `here <http://mesonh.aero.obs-mip.fr/mesonh57/MesonhTutorial>`
+  - Registration deadline: November 1
+  - Registration by e-mail to `Quentin Rodier <mailto:quentin.rodier@meteo.fr>`_
+
+... note::
+  If you have any needs, ideas, improvements to make, bugs to fix or suggestions concerning inputs/outputs, `Philippe Wautelet <mailto:philippe.wautelet@cnrs.fr>`_ is keen to hear from you.
+
+Last publications using Meso-NH
+**************************************
+
+
+Fire meteorology
+  - A case study of the possible meteorological causes of unexpected fire behavior in the Pantanal Wetland, Brazil [`Couto et al., 2024 <https://doi.org/10.3390/earth5030028>`_]
+  - The Role of atmospheric circulation in favouring forest fires in the extreme southern Portugal [`Purificação et al., 2024 <https://doi.org/10.3390/su16166985>`_]
+
+Microphysics
+  - Improving supercooled liquid water representation in the microphysical scheme ICE3 [`Dupont et al., 2024 <http://dx.doi.org/10.1002/qj.4806>`_]
+  - Importance of CCN activation for fog forecasting and its representation in the two-moment microphysical scheme LIMA [`Vié et al., 2024 <https://doi.org/10.1002/qj.4812>`_]
+
+Model development
+  - Porting the Meso-NH atmospheric model on different GPU architectures for the next generation of supercomputers (version MESONH-v55-OpenACC) [`Escobar et al., in discussion <https://doi.org/10.5194/egusphere-2024-2879>`_]
+
+Radiation
+  - How to observe the small-scale spatial distribution of surface solar irradiance [`He et al., in discussion <https://doi.org/10.5194/egusphere-2024-1064>`_]
+
+Thermodynamics over complex terrain and in urban environment
+  - Thermodynamic processes driving thermal circulations on slopes: Modeling anabatic and katabatic flows on Reunion Island [`El Gdachi et al., 2024 <https://doi.org/10.1029/2023JD040431>`_]
+  - Energy and environmental impacts of air-to-air heat pumps in a mid-latitude city [`Meyer et al., 2024 <https://doi.org/10.1038/s41467-024-49836-3>`_]
+
+
+.. note::
+
+   If you would like to share with the community the fact that one of your projects using Meso-NH has been funded, or any other communication about your work (including posters and presentations *available online*), please write to me. I'd also be delighted to hear your views on the proposed format for these newsletters.
+
+Happy simulations with Meso-NH!
+
+See you soon,
+
+Thibaut Dauhut and the entire Meso-NH team: Philippe Wautelet, Quentin Rodier, Didier Ricard, Joris Pianezze, Juan Escobar and Jean-Pierre Chaboureau.
 
