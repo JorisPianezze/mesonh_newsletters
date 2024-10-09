@@ -77,7 +77,7 @@ Clean output files
   - the OUTPUT_LISTING0 file is retained unless it is empty (Meso-NH automatically destroys it at the end; it will continue to exist during execution and in the event of a crash). This applies mainly to the MESONH executable and if no additional output is made to this file (there is some in a few places in the code).
 
 Meso-NH course
-  - The next course will take place from November 12 to 15, 2024. Schedule `here <http://mesonh.aero.obs-mip.fr/mesonh57/MesonhTutorial>`
+  - The next course will take place from November 12 to 15, 2024. Schedule `here <http://mesonh.aero.obs-mip.fr/mesonh57/MesonhTutorial>`_
   - Registration deadline: November 1
   - Registration by e-mail to `Quentin Rodier <mailto:quentin.rodier@meteo.fr>`_
 
