@@ -46,7 +46,7 @@ What are the current limitations of this Meso-NH port, and what are the prospect
 
 .. note::
 
-   A longer version of the beginning of the interview, with more details, is available `here <https://mesonh-beta-test-guide.readthedocs.io/en/latest/community/newsletters/newsletter_03_extended.html>`_.
+   A longer version of the beginning of the interview, with more details, is available `here <https://mesonh-newsletters.readthedocs.io/en/latest/community/newsletters/newsletter_03_english_extended.html>`_.
 
    An article under discussion in *Geosci. Model Dev.* relates the work of porting Meso-NH to GPU, it is available `online here <https://doi.org/10.5194/egusphere-2024-2879>`_ and in pdf: `Escobar et al. (2024) <https://egusphere.copernicus.org/preprints/2024/egusphere-2024-2879/egusphere-2024-2879.pdf>`_.
 
