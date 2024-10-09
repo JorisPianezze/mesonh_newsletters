@@ -46,7 +46,7 @@ Quelles sont les limites pour l'instant de ce portage de Méso-NH ? les perspect
 
 .. note::
 
-   Une version longue du début de l'entretien, avec plus de détails, est disponible `ici <https://mesonh-beta-test-guide.readthedocs.io/en/latest/community/newsletters/newsletter_03_extended.html>`_.
+   Une version longue du début de l'entretien, avec plus de détails, est disponible `ici <https://mesonh-newsletters.readthedocs.io/en/latest/community/newsletters/newsletter_03_extended.html>`_.
 
    Un article en discussion dans *Geosci. Model Dev.* relate le travail de portage de Méso-NH sur GPU, il est disponible `en ligne ici <https://doi.org/10.5194/egusphere-2024-2879>`_ et en pdf : `Escobar et al. (2024) <https://egusphere.copernicus.org/preprints/2024/egusphere-2024-2879/egusphere-2024-2879.pdf>`_.
 
