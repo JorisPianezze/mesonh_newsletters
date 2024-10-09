@@ -1,4 +1,3 @@
-
 Version longue du début de l'entretien avec `Juan Escobar <mailto:juan.escobar-munoz@cnrs.fr>`_ (LAERO, CNRS)
 ******************************************************************************************************************
 
@@ -21,6 +20,6 @@ Quel intérêt y a-t-il à réaliser des simulations sur les calculateurs dotés
 
 
 Y a-t-il des situations qui se prêtent particulièrement bien à l'utilisation de Méso-NH 5-5-1 sur GPU ?
-  Comme je l'ai indiqué, les GPU sont essentiellement des mini-super-calculateurs parallèles et vectoriels. Pour tirer parti de leur performance, il faut donc les alimenter avec beaucoup des données et de calculs pouvant être traités en parallèle de façon indépendante. C'est typiquement le cas des simulations dites GIGA-LES, où les tailles de grilles sont de l'ordre du milliard de points (Giga- pour milliard). Pour le Grand Challenge Adastra GPU, les grilles allaient jusqu'à 4096x4096x128 points (pour 100 mètres de résolution), soit 2,14 milliards de points.
+  Comme je l'ai indiqué, les GPU sont essentiellement des mini-super-calculateurs parallèles et vectoriels. Pour tirer parti de leur performance, il faut donc les alimenter avec beaucoup des données et de calculs pouvant être traités en parallèle de façon indépendante. C'est typiquement le cas des simulations dites Giga-LES, où les tailles de grilles sont de l'ordre du milliard de points (Giga- pour milliard). Pour le Grand Challenge Adastra GPU, les grilles allaient jusqu'à 4096x4096x128 points (pour 100 mètres de résolution), soit 2,14 milliards de points.
 
   On peut aussi bien sûr utiliser des configurations plus petites, mais profiter de la puissance de calcul accrue des GPU pour en faire beaucoup d'un seul coup. Par exemple, on a créé sur Adastra GPU une base de données de simulations sur la Corse avec environ 350 jours simulés. Dans ce cas, pour ce premier test, à 1 km de résolution, la grille ne fait que 256x256x70 points, que l'on a fait tourner sur 1 seul nœud GPU, avec 16 tâches MPI, soit des sous-domaines de 64x64x70 points par GPU (taille de sous-domaine minimum pour garder une bonne efficacité de parallélisation sur GPU). Comme 1 seul nœud par journée simulée est nécessaire, on a pu lancer des centaines de jobs en simultané sur des nœuds GPU différents et réaliser l'ensemble des 350 jours de simulation en 3 jours 'humains'.
