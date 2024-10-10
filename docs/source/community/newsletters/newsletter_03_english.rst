@@ -65,7 +65,7 @@ Version 5.8
 Current and recent developments
   - Chemistry/aerosols: the ACCALMIE project continues to restructure chemistry and aerosols in Météo-France models (ARPEGE, MOCAGE, AROME, MESO-NH) to externalize chemistry and aerosols. The ACLIB (Aerosols and Chemistry LIBrary) is currently being set up. Numerous routines will be impacted, notably inside ch_monitorn.f90, ch_* and all *aer*.
   - Version 6.0: development of the next major version has begun with the upgrade of the GPU branch (MNH-55X-dev-OPENACC-FFT) phased on 5.6 initially without PHYEX. This new MNH-56X-dev-OPENACC-FFT-unlessPHYEX branch is running on GPUs on some tests. Performance tests on GPU architectures (AMD and Nvidia) have been carried out, but this branch has not yet been validated on CPUs. The OpenACC guidelines are currently being ported (manually) to PHYEX. Turbulence has been ported. Now it's ICE3's turn. The branch is compiling on Belenos!
-  - Tools: added functionality to the `Python Fortran Tool <https://github.com/UMR-CNRM/pyft>` library to automatically handle certain transformations of Meso-NH source code to produce code that runs on GPUs.
+  - Tools: added functionality to the `Python Fortran Tool <https://github.com/UMR-CNRM/pyft>`_ library to automatically handle certain transformations of Meso-NH source code to produce code that runs on GPUs.
   - Software forge: the git repository host koda.cnrs has been tested. Migration on October 15. Branches on MNH-ladev will be removed unless a request to the contrary is sent to support for a particular branch.
   - Showcase site: procedures identified for domain name and hosting.
   - Coupling: parallel compilation of Meso-NH debugged when OASISAUTO is activated.
