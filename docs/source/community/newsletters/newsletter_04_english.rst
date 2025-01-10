@@ -42,7 +42,7 @@ News from the support team
 ************************************
 
 “Community Code” label granted to Meso-NH by CNRS-INSU
-  The application was accepted by the Commission spécialisée Océan-Atmosphère (CSOA) for the period 2025-2029. The very favorable opinion underlines, among other things, the scientific production of the community, the coupling capabilities of the model and the efforts to reduce the environmental footprint of simulations (switch to GPU, simple precision, output compression, realization of community simulations).
+  The application to renew the label for the period 2025-2029 was examined by the Commission spécialisée Océan-Atmosphère (CSOA). The very favorable opinion underlines, among other things, the scientific production of the community, the coupling capabilities of the model and the efforts to reduce the environmental footprint of simulations (porting on GPU, simple precision, output compression, realization of community simulations).
 
 Version 6
   A call for contributions was sent out on January 6. All contributions ready by the end of March, i.e. tested and delivered with a (new) test case, will be considered for integration.
