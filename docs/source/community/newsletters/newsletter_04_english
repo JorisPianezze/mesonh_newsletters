@@ -13,7 +13,7 @@ Here is our 4th community newsletter. You'll find an interview with a Meso-NH de
 Interview with `Robert Schoetter <mailto:robert.schoetter@meteo.fr>`_ (CNRM)
 ************************************************************************************
 
-.. image:: photo_robert-s.jpg
+.. image:: photo_rs.jpg
   :width: 200
 
 Robert, you developed the multi-level coupling between Meso-NH and TEB, the SURFEX module that represents interactions between cities and the atmosphere. Could you summarize what motivated this development?
