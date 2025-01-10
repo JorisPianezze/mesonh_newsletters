@@ -16,3 +16,7 @@ Newsletters
    newsletter_03.rst
 
    newsletter_03_english.rst
+
+   newsletter_04.rst
+
+   newsletter_04_english.rst
