@@ -41,7 +41,7 @@ What are the possible limitations? In which cases should this coupling be avoide
 News from the support team
 ************************************
 
-INSU gives Meso-NH the “Community Code” label
+“Community Code” label granted to Meso-NH by CNRS-INSU
   The application was accepted by the Commission spécialisée Océan-Atmosphère (CSOA) for the period 2025-2029. The very favorable opinion underlines, among other things, the scientific production of the community, the coupling capabilities of the model and the efforts to reduce the environmental footprint of simulations (switch to GPU, simple precision, output compression, realization of community simulations).
 
 Version 6
