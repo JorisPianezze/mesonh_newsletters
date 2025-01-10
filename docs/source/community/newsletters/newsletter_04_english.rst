@@ -64,7 +64,7 @@ Meso-NH course
   - Registration deadline: February 14
   - Registration by mail to `Quentin Rodier <mailto:quentin.rodier@meteo.fr>`_
 
-... note::
+.. note::
   If you have any needs, ideas, improvements to make, bugs to fix or suggestions concerning inputs/outputs, `Philippe Wautelet <mailto:philippe.wautelet@cnrs.fr>`_ is keen to hear from you.
 
 
