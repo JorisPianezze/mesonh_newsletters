@@ -1,7 +1,7 @@
 Infolettre #04
 ================================================
 
-**10 janvier 2025.** Version française, English version `here <newsletter_03_english.html>`_.
+**10 janvier 2025.** Version française, English version `here <newsletter_04_english.html>`_.
 
 
 Chers utilisateurs, chères utilisatrices de Méso-NH,
