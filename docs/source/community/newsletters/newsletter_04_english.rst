@@ -84,7 +84,7 @@ PhD theses
 
 .. note::
 
-   If you would like to share with the community the fact that one of your projects using Meso-NH has been funded, or any other communication about your work (including posters and presentations *available online*), please write to me. I'm also keen to hear your views on the proposed format for these newsletters.
+   If you would like to share with the community the fact that one of your projects using Meso-NH has been funded, or any other communication about your work (including posters and presentations *available online*), please write to `me <mailto:thibaut.dauhut@univ-tlse3.fr>`_.
 
 Enjoy simulating with Meso-NH!
 
