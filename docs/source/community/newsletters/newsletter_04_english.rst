@@ -53,7 +53,7 @@ Current and recent developments
   - Data compression: the ability to set compression parameters (lossy or lossless) on a variable-by-variable basis in output files, whether for the whole domain or in each box (sub-domain), has been added, for the moment only to the MNH-57X-dev-IO branch. This involved an internal reorganization, as the choice of compression was made at file level only, and not at field level.
   - Frequent output: further functionalities under study, such as filtering by threshold.
   - Preparation of version 6 is now underway (merging contribution by contribution).
-  - Website and documentation 2.0: development underway, with a first version planned for this year's Meso-NH User days.
+  - Website and documentation 2.0: development underway, with a first version planned for this year's Meso-NH Users days.
 
 Meso-NH repository on software forge 
   - The koda.cnrs git repository host is now officially in use: https://src.koda.cnrs.fr/mesonh/mesonh-code
