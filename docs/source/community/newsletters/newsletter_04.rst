@@ -13,7 +13,7 @@ Voici ci-dessous la 4ème infolettre de notre communauté. Vous y trouverez un e
 Entretien avec `Robert Schoetter <mailto:robert.schoetter@meteo.fr>`_ (CNRM)
 ************************************************************************************
 
-.. image:: photo_robert-s.jpg
+.. image:: photo_rs.jpg
   :width: 200
 
 Robert, tu as développé le couplage à plusieurs niveaux entre Méso-NH et TEB, le module de SURFEX qui représente les interactions entre les villes et l'atmosphère. Pourrais-tu résumer ce qui a motivé ce développement ?
