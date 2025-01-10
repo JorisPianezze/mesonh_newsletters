@@ -1,7 +1,7 @@
 Newsletter  #04
 ================================================
 
-**10th January 2025** English version, version française `ici <newsletter_04.html>`_.
+**10 January 2025** English version, version française `ici <newsletter_04.html>`_.
 
 
 Dear Meso-NH users,
