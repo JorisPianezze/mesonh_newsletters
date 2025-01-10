@@ -68,7 +68,7 @@ Meso-NH course
   If you have any needs, ideas, improvements to make, bugs to fix or suggestions concerning inputs/outputs, `Philippe Wautelet <mailto:philippe.wautelet@cnrs.fr>`_ is keen to hear from you.
 
 
-Last publications using Meso-NH
+Latest publications using Meso-NH
 ****************************************************************************************
 
 Marine atmospheric boundary layer
