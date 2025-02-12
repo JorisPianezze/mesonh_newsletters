@@ -10,3 +10,5 @@ Welcome to Meso-NH's newsletters !
    :caption: Community
 
    community/newsletters/newsletters.rst
+
+   community/tips/tips.rst
