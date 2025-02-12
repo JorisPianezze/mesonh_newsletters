@@ -3,7 +3,7 @@ Tips #01
 
 **12 February 2025**
 
-Il est possible de compresser des fichiers de sortie Méso-NH au format netCDF4 qui ne l'étaient pas encore. L'utilité de cette opération set de réduire l'espace disque occupé par vos simulations.
+Il est possible de compresser des fichiers de sortie Méso-NH au format netCDF4 qui ne l'étaient pas encore. L'utilité de cette opération est de réduire l'espace disque occupé par vos simulations.
 
 L'opération se fait simplement avec la commande :
 
