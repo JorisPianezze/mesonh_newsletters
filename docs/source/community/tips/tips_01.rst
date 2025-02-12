@@ -11,7 +11,7 @@ L'opération se fait simplement avec la commande :
 
    nccopy -d4 -s fich_noncompresse.nc4 fich_compress.nc4
 
-Le -d4 pour dire de compresser avec un niveau 4 de compression (0: pas de compression, 9 maximum). 4 ou 5 devrait généralement suffire. Au-delà, on ne gagne généralement pas grand chose (voir rien) et çà allonge pas mal la durée de l'opération. Le -s est pour activer le "shuffle". Je vous le conseille fortement.
+Le -d4 pour dire de compresser avec un niveau 4 de compression (0: pas de compression, 9 maximum). 4 ou 5 devrait généralement suffire. Au-delà, on ne gagne généralement pas grand chose (voir rien) et ça allonge pas mal la durée de l'opération. Le -s est pour activer le "shuffle". Je vous le conseille fortement.
 
 Attention, les gains sont très variables d'un fichier à l'autre (de quelques pourcents à un facteur 2 voire plus) et le traitement est un peu long. Si vous avez pas mal de fichiers, écrire un petit script shell pour boucler sur la liste de fichiers est une bonne idée. Petit exemple à adapter :
 
