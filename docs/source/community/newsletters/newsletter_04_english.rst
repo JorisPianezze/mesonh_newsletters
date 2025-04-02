@@ -78,9 +78,9 @@ Drone measurements of cumulus
   - Experimental UAV flights to collect data within cumulus clouds [`Hattenberger et al., 2024 <https://doi.org/10.1109/TFR.2024.3478216>`_]
 
 PhD theses
-  - Amélioration de la prise en compte du givrage par la modélisation et la prévision météorologique pour l'exploitation des parcs éoliens [`Dupont, Université de Toulouse, 2024 <https://theses.fr/s305624>`_]
+  - Amélioration de la prise en compte du givrage par la modélisation et la prévision météorologique pour l'exploitation des parcs éoliens [`Dupont <https://theses.fr/s305624>`_, Université de Toulouse, 2024]
   - Etude de l'évolution de la couche limite atmosphérique et des nuages de pente sur l'île de la Réunion [`El Gdachi, Université de La Réunion, 2024 <https://theses.fr/s311244>`_]
-  - Interactions entre irrigation, couche limite atmosphérique et vents de méso-échelle en région semi-aride : observations et modélisation [`Lunel, Université de Toulouse, 2024 <https://theses.fr/s304370>`_]
+  - Interactions entre irrigation, couche limite atmosphérique et vents de méso-échelle en région semi-aride : observations et modélisation [`Lunel <https://theses.fr/s304370>`_, Université de Toulouse, 2024]
 
 .. note::
 
