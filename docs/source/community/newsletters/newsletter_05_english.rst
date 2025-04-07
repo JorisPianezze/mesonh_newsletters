@@ -17,7 +17,7 @@ Interview with `Najda Villefranque <mailto:najda.villefranque@meteo.fr>`_ (CNRM)
 
 .. note::
 
-   A longer version of the interview, with more details, is available `here <https://mesonh-beta-test-guide.readthedocs.io/en/latest/community/newsletters/newsletter_05_extended_english.html>`_.
+   A longer version of the interview, with more details, is available `here <newsletter_05_english_extended.html>`_.
 
 
 Najda, you've developed a 3D radiation simulator that can be applied to 3D fields from Meso-NH simulations. Could you summarize what this software does?
