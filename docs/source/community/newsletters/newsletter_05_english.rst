@@ -71,7 +71,7 @@ Meso-NH Zenodo repository
   In order to have a DOI associated with each new version of Meso-NH, a `Zenodo repository <https://zenodo.org/records/15095131>`_ has just been created. For each version of Meso-NH, the tar ball will be deposited there and a DOI will be associated with it. 
 
 .. note::
-  **Think about it for your future publications**, you'll be able to refer to this repository in the *Data availability* section or equivalent. 
+  **Think about it for your future publications**, you'll be able to refer to this Zenodo repository in the *Data availability* section or equivalent. 
 
 Meso-NH internship
   The Meso-NH course was held successfully for the first time in hybrid mode, with 8 people in the room and 13 remotely, from March 10 to 13, 2025.
