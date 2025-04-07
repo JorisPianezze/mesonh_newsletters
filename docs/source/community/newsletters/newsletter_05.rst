@@ -17,7 +17,7 @@ Entretien avec `Najda Villefranque <mailto:najda.villefranque@meteo.fr>`_ (CNRM)
 
 .. note::
 
-   Une version longue de l'entretien, avec plus de détails, est disponible `ici <https://mesonh-beta-test-guide.readthedocs.io/en/latest/community/newsletters/newsletter_05_extended.html>`_.
+   Une version longue de l'entretien, avec plus de détails, est disponible `ici <newsletter_05_extended.html>`_.
 
 
 Najda, tu as développé un simulateur de rayonnement 3D qui peut être appliqué à des champs 3D issus de simulations Méso-NH. Pourrais-tu résumer ce que fait ce logiciel ?
