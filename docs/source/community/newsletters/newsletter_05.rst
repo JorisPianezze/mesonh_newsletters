@@ -71,7 +71,7 @@ Dépôt Zenodo de Méso-NH
   Afin d'avoir un DOI associé à chaque nouvelle version de Méso-NH, un `dépôt Zenodo <https://zenodo.org/records/15095131>`_ vient d'être créé. Pour chaque version de Méso-NH, la tar ball y sera déposée et un DOI y sera associé. 
 
 .. note::
-  **Pensez-y pour vos futures publications**, vous pourrez faire référence à ce dépôt notamment dans la section *Data availability* ou équivalente. 
+  **Pensez-y pour vos futures publications**, vous pourrez faire référence à ce dépôt Zenodo notamment dans la section *Data availability* ou équivalente. 
 
 Stage Méso-NH
   Le stage Méso-NH s'est déroulé avec succès pour la première fois en hybride, avec 8 personnes dans la salle et 13 à distance, du 10 au 13 mars 2025.
