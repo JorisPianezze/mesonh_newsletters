@@ -20,3 +20,7 @@ Newsletters
    newsletter_04.rst
 
    newsletter_04_english.rst
+
+   newsletter_05.rst
+
+   newsletter_05_english.rst
