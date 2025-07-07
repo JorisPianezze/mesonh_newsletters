@@ -1,18 +1,18 @@
-Newsletter #05
+Newsletter #06
 ================================================
 
-**7 April 2025.** English version, version française `ici <newsletter_05.html>`_.
+**8 July 2025.** English version, version française `ici <newsletter_06.html>`_.
 
 
 Dear Meso-NH users,
 
-This is the 5th newsletter from our Meso-NH community. You'll find an interview with the developer of a useful tool for Meso-NH users, the latest news from the support team and a list of the latest publications using Meso-NH.
+This is the 6th newsletter from our Meso-NH community. You'll find an interview with a Meso-NH developer, the latest news from the support team and a list of the latest publications using Meso-NH.
 
 Interview with `Najda Villefranque <mailto:najda.villefranque@meteo.fr>`_ (CNRM)
 *************************************************************************************
 
-.. image:: photo_nv.jpg
-  :width: 250
+.. image:: photo_jpc.jpg
+  :width: 200
 
 
 .. note::
