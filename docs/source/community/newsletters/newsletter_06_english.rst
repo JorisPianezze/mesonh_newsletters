@@ -54,16 +54,16 @@ Version 6
   - The ACLIB library (externalized chemistry and aerosols) continues to be developed for integration into version 6 (a first version of ACLIB will be integrated into MNH-60-branch in July).
 
 ... note::
-  **Think of the Zenodo repository for your future publications**, the tar ball is deposited there and a DOI is associated with it. You can refer to this repository <https://zenodo.org/records/15095131>`_ in the *Data availability* section or equivalent. 
+  **Think of the Zenodo repository for your future publications**, the tar ball is deposited there and a DOI is associated with it. You can refer to `this repository <https://zenodo.org/records/15095131>`_ in the *Data availability* section or equivalent. 
 
 Méso-NH User Days
- This year's event will be held from October 13 to 15, 2025 at CNRM, Météo-France.
+ This year's event will be held from 13 to 15 October 2025 at CNRM, Météo-France.
 
 New websites
  Work continues on setting up and editing the new websites.
 
 Meso-NH course
-  - The next Meso-NH course is scheduled for December 1-4, 2025. 
+  - The next Meso-NH course is scheduled for 1-4 December 2025. 
   - The course will be held face-to-face and in French. Places are limited.
   - Send an e-mail to `Quentin Rodier <mailto:quentin.rodier@meteo.fr>`_ for information and registration.
 
