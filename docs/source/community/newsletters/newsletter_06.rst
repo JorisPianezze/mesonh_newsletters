@@ -1,7 +1,7 @@
 Infolettre #06
 ================================================
 
-**8 juillet 2025.** Version française, English version `here <newsletter_03_english.html>`_.
+**8 juillet 2025.** Version française, English version `here <newsletter_06_english.html>`_.
 
 
 Chers utilisateurs, chères utilisatrices de Méso-NH,
@@ -24,14 +24,14 @@ Pourquoi conseilles-tu d'utiliser RTTOV ?
 Quelles recommandations d’utilisation ferais-tu à la communauté Méso-NH ?
   L'observation par satellite géostationnaire permet d’évaluer une simulation avec des images à toutes les 10 à 15 minutes. Cela est très utile pour déterminer si un système nuageux est bien positionné. Cette évaluation peut être réalisée dans le domaine infrarouge thermique pour le suivi des nuages profonds, dans le domaine solaire pour le suivi de nuages peu profonds (depuis RTTOV version 12), et dans le domaine radar micro-ondes pour la structure verticale des nuages et des précipitations (depuis RTTOV version 13). Des exemples sont la figure 3 de `Lfarh et al. (2023) <https://doi.org/10.1175/MWR-D-23-0099.1>`_ pour la position d’une tempête méditerranéenne à 200 m de résolution dans le domaine visible, la figure 2 de `Feger et al. (2025) <https://doi.org/10.5194/egusphere-2025-105>`_ pour le suivi de la position d’un système convectif de méso-échelle (MCS) dans le domaine infrarouge, et la figure 10 de `Feger et al. (2025) <https://doi.org/10.5194/egusphere-2025-105>`_ pour l’intrusion d’air sec dans le MCS telle que vue dans une coupe radar. RTTOV combiné à des simulations Méso-NH est également utilisé pour aider à définir les futurs capteurs spatiaux, tels que la mission `C2OMODO <https://c2omodo.ipsl.fr/>`_ (Convective Core Observations through MicrOwave Derivatives in the trOpics) qui sera lancée en 2030.
 
-Quelles sont les limites ? Dans quel cas cette option est-elle plutôt à éviter ?
+Quelles sont les limites ?
   RTTOV est un code très rapide pour lequel les effets d’absorption gazeuse et de diffusion des gaz et des particules sont paramétrés. Les utilisateurs expérimentés peuvent préférer des codes de recherche, plus précis mais plus lents, par exemple pour prendre en compte les effets tridimensionnels ou de diffusion multiple. Un effet bien connu est celui de parallaxe, valable par exemple, pour les nuages convectifs profonds observés à fine résolution avec un grand angle de vue. Un autre écueil à éviter est l’utilisation de RTTOV pour ajuster les propriétés optiques ou microphysiques des aérosols et des nuages. Il faut veiller à ce que ces propriétés soient cohérentes entre les différents schémas microphysiques et radiatifs utilisés. Il en va de même pour l'évaluation des propriétés de la surface continentale.
 
 
 
 .. note::
 
-  Si vous aussi vous souhaitez expliquer un développement que vous avez mis en place dans Méso-NH, ou une méthode d’analyse que vous partagez à la communauté, n’hésitez pas à me le signaler par `mail <mailto:thibaut.dauhut@univ-tlse3.fr>`_.
+  Si vous aussi vous souhaitez expliquer un développement que vous avez mis en place dans Méso-NH, ou une méthode d’analyse que vous partagez à la communauté, n’hésitez pas à me le signaler par `mail <mailto:thibaut.dauhut@utoulouse.fr>`_.
 
     
     
@@ -50,7 +50,7 @@ Version 6
   - Un appel à contribution sera proposé courant septembre.
   - Le ménage interne (déjà annoncé) se poursuit.
   - La bibliothèque de compression Zstandard est totalement intégrée dans la version 6. De plus, elle devient la bibliothèque de compression par défaut et surtout la compression sera activée par défaut (débrayable via les namelistes).
-  - La librairie ACLIB (chimie et aérosols externalisés) continue son développement pour intégration dans la v6 (une première version d'ACLIB sera intégrée MNH-60-branch en juillet).
+  - La librairie ACLIB (chimie et aérosols externalisés) continue son développement pour intégration dans la version 6 (une première version d'ACLIB sera intégrée MNH-60-branch en juillet).
 
 .. note::
   **Pensez au dépôt Zenodo pour vos futures publications**, la tar ball y est déposée et un DOI y est associé. Vous pourrez faire référence à ce `dépôt <https://zenodo.org/records/15095131>`_ notamment dans la section *Data availability* ou équivalente. 
