@@ -104,7 +104,7 @@ Porting on GPU supercomputers
   - Porting the Meso-NH atmospheric model on different GPU architectures for the next generation of supercomputers (version MESONH-v55-OpenACC) [`Escobar et al., 2025 <https://doi.org/10.5194/egusphere-2024-2879>`_]
 
 PhD theses
-  - Analyse globale, régionale et locale des mesures de vapeur d'eau dans la haute TTL pendant STRATÉOLE 2 [`Carbone <https://theses.fr/s297336>`_, Université de Reims Champagne-Ardenne, 2025]
+  - Analyse globale, régionale et locale des mesures de vapeur d'eau dans la haute TTL pendant STRATÉOLE 2 [`Carbone, Université de Reims Champagne-Ardenne, 2025 <https://theses.fr/s297336>`_]
 
 .. note::
 
