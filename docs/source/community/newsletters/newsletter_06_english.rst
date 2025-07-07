@@ -53,7 +53,7 @@ Version 6
   - The Zstandard compression library has been fully integrated into version 6. In addition, it becomes the default compression library and, more importantly, compression will be enabled by default (disengageable via namelists).
   - The ACLIB library (externalized chemistry and aerosols) continues to be developed for integration into version 6 (a first version of ACLIB will be integrated into MNH-60-branch in July).
 
-... note::
+.. note::
   **Think of the Zenodo repository for your future publications**, the tar ball is deposited there and a DOI is associated with it. You can refer to `this repository <https://zenodo.org/records/15095131>`_ in the *Data availability* section or equivalent. 
 
 Méso-NH User Days
