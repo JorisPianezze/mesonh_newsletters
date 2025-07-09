@@ -78,6 +78,10 @@ Latest publications using Meso-NH
 Aerosol-cloud interactions
   RCEMIP-ACI: Aerosol-Cloud Interactions in a Multimodel Ensemble of Radiative-Convective Equilibrium Simulations [`Dagan et al., 2025 <https://doi.org/10.22541/essoar.174534436.64971999/v1>`_]
 
+C2OMODO satellite mission
+  - Vertical velocity deduced from ice change in deep convection [`Auguste and Chaboureau, 2025 <https://doi.org/10.1175/JAS-D-24-0118.1>`_]
+  - Bridging time-delayed microwave radiometric observations and deep convection characteristics: a machine learning approach for the C2OMODO mission [`Lefebvre et al., 2025 <https://doi.org/10.1109/TGRS.2025.3583571>`_]
+
 Object tracking
   A Unified Open-Source Toolkit for Atmospheric Object Tracking and Analysis [`Hahn et al., 2025 <https://doi.org/10.5194/egusphere-2025-1328>`_]
 
