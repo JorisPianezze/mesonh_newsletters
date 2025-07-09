@@ -1,7 +1,7 @@
 Infolettre #06
 ================================================
 
-**8 juillet 2025.** Version française, English version `here <newsletter_06_english.html>`_.
+**9 juillet 2025.** Version française, English version `here <newsletter_06_english.html>`_.
 
 
 Chers utilisateurs, chères utilisatrices de Méso-NH,
