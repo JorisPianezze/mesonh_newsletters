@@ -1,7 +1,7 @@
 Newsletter #06
 ================================================
 
-**8 July 2025.** English version, version française `ici <newsletter_06.html>`_.
+**9 July 2025.** English version, version française `ici <newsletter_06.html>`_.
 
 
 Dear Meso-NH users,
