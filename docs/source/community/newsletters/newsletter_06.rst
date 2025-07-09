@@ -74,21 +74,21 @@ Dernières publications utilisant Méso-NH
 ****************************************************************************************
 
 Aerosol-cloud interactions
-  RCEMIP-ACI: Aerosol-Cloud Interactions in a Multimodel Ensemble of Radiative-Convective Equilibrium Simulations [`Dagan et al., 2025 <https://doi.org/10.22541/essoar.174534436.64971999/v1>`_]
+  - RCEMIP-ACI: Aerosol-Cloud Interactions in a Multimodel Ensemble of Radiative-Convective Equilibrium Simulations [`Dagan et al., 2025 <https://doi.org/10.22541/essoar.174534436.64971999/v1>`_]
 
 C2OMODO satellite mission
   - Vertical velocity deduced from ice change in deep convection [`Auguste and Chaboureau, 2025 <https://doi.org/10.1175/JAS-D-24-0118.1>`_]
   - Bridging time-delayed microwave radiometric observations and deep convection characteristics: a machine learning approach for the C2OMODO mission [`Lefebvre et al., 2025 <https://doi.org/10.1109/TGRS.2025.3583571>`_]
 
 Object tracking
-  A Unified Open-Source Toolkit for Atmospheric Object Tracking and Analysis [`Hahn et al., 2025 <https://doi.org/10.5194/egusphere-2025-1328>`_]
+  - A Unified Open-Source Toolkit for Atmospheric Object Tracking and Analysis [`Hahn et al., 2025 <https://doi.org/10.5194/egusphere-2025-1328>`_]
 
 Shallow convection
-  An update of shallow cloud parameterization in the AROME NWP model [`Marcel et al., 2025 <https://doi.org/10.5194/egusphere-2025-2504>`_]
+  - An update of shallow cloud parameterization in the AROME NWP model [`Marcel et al., 2025 <https://doi.org/10.5194/egusphere-2025-2504>`_]
 
 
 PhD thesis
-  Investigation des effets aérodynamiques de la canopée forestière sur le comportement de feux expérimentaux [`Antolin, Université de Toulouse, 2025 <https://theses.fr/s305185>`_]
+  - Investigation des effets aérodynamiques de la canopée forestière sur le comportement de feux expérimentaux [`Antolin, Université de Toulouse, 2025 <https://theses.fr/s305185>`_]
 
 Presentations at Ateliers de Modélisation de l'Atmosphère 2025
   De nombreux utilisateurs et utilisatrices de Méso-NH ont présenté leurs travaux lors des AMA 2025. Leurs présentations (pdf et enregistrements) sont disponibles `en ligne ici <http://www.meteo.fr/cic/meetings/2025/AMA/presentations.html>`_.
