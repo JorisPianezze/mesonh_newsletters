@@ -66,3 +66,55 @@ News from the support team
 
 The next Meso-NH user days are fast approaching! They will take place at the CNRM, in the Joël Noilhan room, from Monday, October 13 to Wednesday, October 15, 2025. You can find the program `here <https://mesonh.cnrs.fr/13th-meso-nh-users-meeting-13-15-oct-2025/>`_.
 
+Version 6
+  - Preparation of version 6 is underway, with the aim of distributing it by the end of 2025.
+  - A call for contributions for version 6 is open from early September until the end of October.
+  - The ACLIB library (externalized chemistry and aerosols) and the new version of ECRAD have been integrated into the MNH-60 branch.
+- Single precision Meso-NH tests are underway on all eligible test cases.
+  - Source cleaning and restructuring are continuing in preparation for version 6.0.0, with, for example, the removal of LFI format file writes.
+
+Other developments in progress
+- Progress on the (long-term) overhaul of parallel inputs and outputs in Meso-NH.
+- Preparation of the websites is progressing well.
+
+Meso-NH training course
+- The next Meso-NH training course is scheduled for December 1-4, 2025.
+- The course will be held in person and in French. There are 3 places left.
+- Send an email to `Quentin Rodier <quentin.rodier@meteo.fr>`_ for information and registration.
+
+
+
+
+.. note::
+  Si vous avez des besoins, idées, améliorations à apporter, bugs à corriger ou suggestions concernant les entrées/sorties, `Philippe Wautelet <mailto:philippe.wautelet@cnrs.fr>`_ est preneur.
+
+
+Dernières publications utilisant Méso-NH
+****************************************************************************************
+
+Boundary layer and Interactions with the surface
+  - Model and Observation for surface–atmosphere interactions over heterogeneous landscape: MOSAI project [`Lohou et al. (2025) <https://doi.org/10.1016/j.jemets.2025.100019>`_]
+  - Energetically Consistent Eddy-Diffusivity Mass-Flux Convective Schemes: 2. Implementation and Evaluation in an Oceanic Context [`Perrot and Lemarié (2025) <http://dx.doi.org/10.1029/2024MS004616>`_]
+
+Fire Meteorology
+  - A simplified model to incorporate firebrand transport into coupled fire atmosphere models [`Alonso-Pinar et al. (2025) <https://doi.org/10.1071/WF24200>`_]
+  - Synoptic and Regional Meteorological Drivers of a Wildfire in the Wildland–Urban Interface of Faro (Portugal) [`Couto et al. (2025) <https://doi.org/10.3390/fire8090362>`_]
+
+Microphysics and Precipitations
+  - Improving supercooled liquid water representation in LIMA using ICICLE data [July-Wormit et al., *accepted* (2025)]
+  - Localized precipitation enhancement induced by orography and wind dynamics in southern Réunion Island during Tropical Cyclone Batsirai [`Ramanamahefa et al. (2025) <https://doi.org/10.2139/ssrn.5529525>`_]
+  - Model intercomparison of the impacts of varying cloud droplet nucleating aerosols on the lifecycle and microphysics of isolated deep convection [`Saleeby et al. (2025) <https://doi.org/10.1175/JAS-D-24-0181.1>`_]
+
+Volcanic plume and Chemistry
+  - Removal Processes of the Stratospheric SO2 Volcanic Plume From the 2015 Calbuco Eruption [`Baray et al. (2025) <https://doi.org/10.1029/2025JD043850>`_]
+
+.. note::
+
+   If you would like to share with the community the fact that one of your projects using Meso-NH has been funded, or any other information about your work (including posters and presentations *available online*), please feel free to write to me. As we are setting up these newsletters, I would also appreciate your feedback on the proposed format.
+
+Happy simulating with Meso-NH,
+
+see you soon!
+
+Thibaut Dauhut et toute l’équipe Méso-NH : Philippe Wautelet, Quentin Rodier, Didier Ricard, Joris Pianezze, Juan Escobar et Jean-Pierre Chaboureau
+
