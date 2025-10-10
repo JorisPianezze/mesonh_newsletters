@@ -70,17 +70,17 @@ Version 6
   - Preparation of version 6 is underway, with the aim of distributing it by the end of 2025.
   - A call for contributions for version 6 is open from early September until the end of October.
   - The ACLIB library (externalized chemistry and aerosols) and the new version of ECRAD have been integrated into the MNH-60 branch.
-- Single precision Meso-NH tests are underway on all eligible test cases.
+  - Single precision Meso-NH tests are underway on all eligible test cases.
   - Source cleaning and restructuring are continuing in preparation for version 6.0.0, with, for example, the removal of LFI format file writes.
 
 Other developments in progress
-- Progress on the (long-term) overhaul of parallel inputs and outputs in Meso-NH.
-- Preparation of the websites is progressing well.
+  - Progress on the (long-term) overhaul of parallel inputs and outputs in Meso-NH.
+  - Preparation of the websites is progressing well.
 
 Meso-NH training course
-- The next Meso-NH training course is scheduled for December 1-4, 2025.
-- The course will be held in person and in French. There are 3 places left.
-- Send an email to `Quentin Rodier <quentin.rodier@meteo.fr>`_ for information and registration.
+  - The next Meso-NH training course is scheduled for December 1-4, 2025.
+  - The course will be held in person and in French. There are 3 places left.
+  - Send an email to `Quentin Rodier <quentin.rodier@meteo.fr>`_ for information and registration.
 
 
 
