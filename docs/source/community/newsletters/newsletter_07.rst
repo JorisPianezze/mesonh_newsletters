@@ -1,7 +1,7 @@
 Infolettre #07
 ================================================
 
-**9 octobre 2025.** Version française, English version `here <newsletter_07_english.html>`_.
+**10 octobre 2025.** Version française, English version `here <newsletter_07_english.html>`_.
 
 
 Chers utilisateurs, chères utilisatrices de Méso-NH,
