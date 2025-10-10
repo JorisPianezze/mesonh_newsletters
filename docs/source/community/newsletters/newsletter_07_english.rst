@@ -24,20 +24,20 @@ Clotilde, you have developed a radar simulator that can run on Meso-NH outputs. 
 Why is it better to use this tool than the other radar simulators included in Meso-NH diagnostics?
   There are actually three *online* versions of the radar simulator in Meso-NH implemented in the DIAG section [#oponline]_ : one that only uses the Rayleigh approximation for calculating scattering, another that takes into account the flattening of hydrometeors but has not been maintained since 2018, and a third that is adapted to the W band only for airborne or ground-based radars, which does not take into account the flattening of hydrometeors. More advanced options are now available with **operadar**: consideration of hydrometeor oscillation in addition to their flattening, different choices of dielectric constant formulation, and a more advanced version of the representation of melting and mixed phase. These improvements have, for example, made it possible to successfully simulate the columns of :math:`Z_{DR}` associated with the presence of large supercooled water droplets within the updrafts of thunderstorms (`Kumjian et al., 2014 <https://doi.org/10.1175/JAMC-D-13-0354.1>`_) with AROME and the LIMA scheme (`David et al., 2025 <https://doi.org/10.5194/amt-18-3715-2025>`_).
 
-  In 2025, as part of Cloé David's thesis, new options were also added to ensure consistency with microphysical options recently made available in AROME and Meso-NH, such as the new size distribution function for snow (PSD from Wurtz et al., 2023 <https://doi.org/ 10.1002/qj.4437>`_). The code also allows the number of moments (1 or 2) to be specified independently for each species in order to adapt to different LIMA configurations (2 moments for liquid water, 2 moments for liquid water and crystals, or 2 moments entirely).
+  In 2025, as part of Cloé David's thesis, new options were also added to ensure consistency with microphysical options recently made available in AROME and Meso-NH, such as the new size distribution function for snow (PSD from `Wurtz et al., 2023 <https://doi.org/ 10.1002/qj.4437>`_). The code also allows the number of moments (1 or 2) to be specified independently for each species in order to adapt to different LIMA configurations (2 moments for liquid water, 2 moments for liquid water and crystals, or 2 moments entirely).
 
   Comparisons between simulations and observations show a very good representation of the variables :math:`Z_H`, :math:`Z_{DR}`, and :math:`K_{DP}` in rain with the LIMA microphysical scheme (`David et al., 2025 <https://doi.org/10.5194/10.5194/amt -18-3715-2025>`_) on more than 34 storm cases simulated with AROME, better than with the ICE3 microphysical scheme, which underestimates maximum reflectivities (Figure 1).
 
 .. figure:: figure_reflectivity.png
   :width: 500
 
-  Excerpt from David et al. (2025) <https://doi.org/10.5194/amt -18-3715-2025>`_ (Figure 5): Relative frequency of maximum radar reflectivity values (maximum on the vertical) within the convective cores of thunderstorms, defined by a reflectivity threshold > 40 dBZ, for 34 cases of severe thunderstorms observed by radar over mainland France. Gray curve: all observations not associated with hail (as detected by radar), black curve: all observations. Orange curve: AROME simulations with ICE3, green curve: AROME simulations with LIMA.
+  Excerpt from `David et al. (2025) <https://doi.org/10.5194/amt -18-3715-2025>`_ (Figure 5): Relative frequency of maximum radar reflectivity values (maximum on the vertical) within the convective cores of thunderstorms, defined by a reflectivity threshold > 40 dBZ, for 34 cases of severe thunderstorms observed by radar over mainland France. Gray curve: all observations not associated with hail (as detected by radar), black curve: all observations. Orange curve: AROME simulations with ICE3, green curve: AROME simulations with LIMA.
 
 In what cases do you recommend using this module?
   I recommend using **operadar** whenever you are interested in cases of heavy rain for C and lower frequency bands, as well as for any type of precipitation with all frequency bands below C (W, K, Ka, Ku), when you want to take into account the flattening of hydrometeors.
 
 What recommendations would you make to users? 
-  The code is constantly evolving, particularly in the context of Cloé David's thesis. Improvement work will continue in 2025  with a particular focus on frozen species (revisiting the choices of axis ratio, oscillation, density-diameter laws, PSD). It is best to contact me <mailto:clotilde.augros@meteo.fr>_ for any usage requests, so that we can determine together the most relevant options available at the time of the study.
+  The code is constantly evolving, particularly in the context of Cloé David's thesis. Improvement work will continue in 2025  with a particular focus on frozen species (revisiting the choices of axis ratio, oscillation, density-diameter laws, PSD). It is best to contact `me <mailto:clotilde.augros@meteo.fr>`_ for any usage requests, so that we can determine together the most relevant options available at the time of the study.
 
 What are the limitations? In what cases should this option be avoided?
   For the moment, there are two main limitations. On the one hand, the simulation of radar geometry is not yet integrated into this code but will be soon. On the other hand, for the K, Ka, Ku, and W frequency bands, the relevance of simulations using the T-matrix method remains to be confirmed for snow.  Other more complex methods (Discrete Dipole Approximation DDA, Self Similar Rayleigh Gans Approximation SSRGA) are used in the literature. As such, a comparison with the RTTOV-SCAT radar simulator, which uses tables produced with the DDA method, is planned for 2026.
@@ -57,7 +57,7 @@ References
 
 .. note::
 
-  If you would also like to explain a development you have implemented in Meso-NH, or an analysis method you would like to share with the community, please let me know by emailing <mailto:thibaut.dauhut@utoulouse.fr>.
+  If you would also like to explain a development you have implemented in Meso-NH, or an analysis method you would like to share with the community, please let me know by `emailing <mailto:thibaut.dauhut@utoulouse.fr>`_.
 
     
     
