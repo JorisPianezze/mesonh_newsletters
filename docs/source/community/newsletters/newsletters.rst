@@ -29,3 +29,7 @@ Newsletters
 
    newsletter_06_english.rst
 
+   newsletter_07.rst
+
+   newsletter_07_english.rst
+
