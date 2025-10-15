@@ -36,8 +36,6 @@ Why is it better to use this tool than the other radar simulators included in Me
 In what cases do you recommend using this module?
   I recommend using **operadar** to evaluate the representation of clouds and precipitation in Meso-NH (or AROME) simulations. This code is necessary when considering heavy rain cases for radar wavelengths corresponding to the C band (~ 5 cm) and below, as well as for all types of precipitation with all frequency bands, if one wishes to take into account the flattening of hydrometeors (S ~ 10 cm, C ~ 5 cm, X ~ 3 cm, Ku ~ 2 cm, K ~ 1.5 cm, Ka ~ 1 cm, W ~ 0.3 cm).
 
-Translated with DeepL.com (free version)
-
 What recommendations would you make to users? 
   The code is constantly evolving, particularly in the context of Cloé David's thesis. Improvement work will continue in 2025  with a particular focus on frozen species (revisiting the choices of axis ratio, oscillation, density-diameter laws, PSD). It is best to contact `me <mailto:clotilde.augros@meteo.fr>`_ for any usage requests, so that we can determine together the most relevant options available at the time of the study.
 
