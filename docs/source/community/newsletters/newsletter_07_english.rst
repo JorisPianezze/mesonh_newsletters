@@ -34,7 +34,9 @@ Why is it better to use this tool than the other radar simulators included in Me
   Excerpt from `David et al. (2025) <https://doi.org/10.5194/amt -18-3715-2025>`_ (Figure 5): Relative frequency of maximum radar reflectivity values (maximum on the vertical) within the convective cores of thunderstorms, defined by a reflectivity threshold > 40 dBZ, for 34 cases of severe thunderstorms observed by radar over mainland France. Gray curve: all observations not associated with hail (as detected by radar), black curve: all observations. Orange curve: AROME simulations with ICE3, green curve: AROME simulations with LIMA.
 
 In what cases do you recommend using this module?
-  I recommend using **operadar** whenever you are interested in cases of heavy rain for C and lower frequency bands, as well as for any type of precipitation with all frequency bands below C (W, K, Ka, Ku), when you want to take into account the flattening of hydrometeors.
+  I recommend using **operadar** to evaluate the representation of clouds and precipitation in Meso-NH (or AROME) simulations. This code is necessary when considering heavy rain cases for radar wavelengths corresponding to the C band (~ 5 cm) and below, as well as for all types of precipitation with all frequency bands, if one wishes to take into account the flattening of hydrometeors (S ~ 10 cm, C ~ 5 cm, X ~ 3 cm, Ku ~ 2 cm, K ~ 1.5 cm, Ka ~ 1 cm, W ~ 0.3 cm).
+
+Translated with DeepL.com (free version)
 
 What recommendations would you make to users? 
   The code is constantly evolving, particularly in the context of Cloé David's thesis. Improvement work will continue in 2025  with a particular focus on frozen species (revisiting the choices of axis ratio, oscillation, density-diameter laws, PSD). It is best to contact `me <mailto:clotilde.augros@meteo.fr>`_ for any usage requests, so that we can determine together the most relevant options available at the time of the study.
