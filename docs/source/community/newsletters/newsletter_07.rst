@@ -92,20 +92,20 @@ Dernières publications utilisant Méso-NH
 ****************************************************************************************
 
 Boundary layer and Interactions with the surface
-  - Model and Observation for surface–atmosphere interactions over heterogeneous landscape: MOSAI project [`Lohou et al. (2025) <https://doi.org/10.1016/j.jemets.2025.100019>`_]
-  - Energetically Consistent Eddy-Diffusivity Mass-Flux Convective Schemes: 2. Implementation and Evaluation in an Oceanic Context [`Perrot and Lemarié (2025) <http://dx.doi.org/10.1029/2024MS004616>`_]
+  - Model and Observation for surface–atmosphere interactions over heterogeneous landscape: MOSAI project [`Lohou et al., 2025 <https://doi.org/10.1016/j.jemets.2025.100019>`_]
+  - Energetically Consistent Eddy-Diffusivity Mass-Flux Convective Schemes: 2. Implementation and Evaluation in an Oceanic Context [`Perrot and Lemarié, 2025 <http://dx.doi.org/10.1029/2024MS004616>`_]
 
 Fire Meteorology
-  - A simplified model to incorporate firebrand transport into coupled fire atmosphere models [`Alonso-Pinar et al. (2025) <https://doi.org/10.1071/WF24200>`_]
-  - Synoptic and Regional Meteorological Drivers of a Wildfire in the Wildland–Urban Interface of Faro (Portugal) [`Couto et al. (2025) <https://doi.org/10.3390/fire8090362>`_]
+  - A simplified model to incorporate firebrand transport into coupled fire atmosphere models [`Alonso-Pinar et al., 2025 <https://doi.org/10.1071/WF24200>`_]
+  - Synoptic and Regional Meteorological Drivers of a Wildfire in the Wildland–Urban Interface of Faro (Portugal) [`Couto et al., 2025 <https://doi.org/10.3390/fire8090362>`_]
 
 Microphysics and Precipitations
-  - Improving supercooled liquid water representation in LIMA using ICICLE data [July-Wormit et al., *accepted* (2025)]
-  - Localized precipitation enhancement induced by orography and wind dynamics in southern Réunion Island during Tropical Cyclone Batsirai [`Ramanamahefa et al. (2025) <https://doi.org/10.2139/ssrn.5529525>`_]
-  - Model intercomparison of the impacts of varying cloud droplet nucleating aerosols on the lifecycle and microphysics of isolated deep convection [`Saleeby et al. (2025) <https://doi.org/10.1175/JAS-D-24-0181.1>`_]
+  - Improving supercooled liquid water representation in LIMA using ICICLE data [July-Wormit et al., *accepted* 2025]
+  - Localized precipitation enhancement induced by orography and wind dynamics in southern Réunion Island during Tropical Cyclone Batsirai [`Ramanamahefa et al., 2025 <https://doi.org/10.2139/ssrn.5529525>`_]
+  - Model intercomparison of the impacts of varying cloud droplet nucleating aerosols on the lifecycle and microphysics of isolated deep convection [`Saleeby et al., 2025 <https://doi.org/10.1175/JAS-D-24-0181.1>`_]
 
 Volcanic plume and Chemistry
-  - Removal Processes of the Stratospheric SO2 Volcanic Plume From the 2015 Calbuco Eruption [`Baray et al. (2025) <https://doi.org/10.1029/2025JD043850>`_]
+  - Removal Processes of the Stratospheric SO2 Volcanic Plume From the 2015 Calbuco Eruption [`Baray et al., 2025 <https://doi.org/10.1029/2025JD043850>`_]
 
 .. note::
 
