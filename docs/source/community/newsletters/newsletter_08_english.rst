@@ -47,7 +47,7 @@ Version 6
   - Writing files in LFI format is no longer supported.
   - In netCDF files, SURFEX variables are now separated into a specific group.
   - The call to RTTOV14 has been integrated for the diagnostic step and for online calculation, the call to RTTOV13 has been removed.
-  - The latest optimisations of GPU porting on different machines (AMD MI250X and MI300A GPU cards on Adastra) and NVIDIA APUs have been integrated into the ``MNH-60-branch`` branch.
+  - The latest optimisations of GPU porting on different machines (AMD MI250X and MI300A GPU on Adastra) and NVIDIA APUs have been integrated into the ``MNH-60-branch`` branch.
   - The latest version of the wind turbine code (EOL-v2) and an update to the LIMA-ecRad-aerosols coupling have been integrated into the ``MNH-60-branch`` branch.
   - Some updates to the documentation have been made and the future Meso-NH technical website will be launched when version 6 is released.
 
