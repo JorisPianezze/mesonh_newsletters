@@ -43,13 +43,13 @@ News from the support team
 
 Version 6
   - Version 6.0.0 is currently being prepared and will be released shortly.
-  - The PHYEX update in Méso-NH is currently underway. This requires the phasing of changes from the Méso-NH version of PHYEX to the central PHYEX repository. Then, retrieving this version from the central repository and implementing it in Méso-NH allows us to retrieve the PHYEX changes made by other contributors (such as members of the ACCORD community or those developing in AROME).
+  - The PHYEX update in Meso-NH is currently underway. This requires the phasing of changes from the Meso-NH version of PHYEX to the central PHYEX repository. Then, retrieving this version from the central repository and implementing it in Meso-NH allows us to retrieve the PHYEX changes made by other contributors (such as members of the ACCORD community or those developing in AROME).
   - Writing files in LFI format is no longer supported.
   - In netCDF files, SURFEX variables are now separated into a specific group.
   - The call to RTTOV14 has been integrated for the diagnostic step and for online calculation, the call to RTTOV13 has been removed.
   - The latest optimisations of GPU porting on different machines (AMD MI250X and MI300A GPU cards on Adastra) and NVIDIA APUs have been integrated into the ``MNH-60-branch`` branch.
   - The latest version of the wind turbine code (EOL-v2) and an update to the LIMA-ecRad-aerosols coupling have been integrated into the ``MNH-60-branch`` branch.
-  - Some updates to the documentation have been made and the future Méso-NH technical website will be launched when version 6 is released.
+  - Some updates to the documentation have been made and the future Meso-NH technical website will be launched when version 6 is released.
 
 Current and recent developments
   - Single-precision Meso-NH tests are currently being conducted on all eligible test cases. The switch to single precision by default has not yet been finalised and will likely be postponed until version 6.1.
