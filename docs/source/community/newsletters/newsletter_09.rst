@@ -43,6 +43,8 @@ Les nouvelles de l’équipe support
 ************************************
 
 Version 6
+  Les efforts de l'équipe se sont concentrés sur la parution de cette nouvelle version 6.
+  
   - La préparation de la version 6.0.0 est en cours, sa sortie est imminente.
   - La mise à jour de PHYEX dans Méso-NH est en cours. Cela nécessite le phasage des modifications de la version de PHYEX de Méso-NH vers le dépot central de PHYEX. Ensuite, la récupération de cette version sur le dépôt central et son implantation dans Méso-NH permet de récupérer les modifications de PHYEX réalisées par les autres contributeurs (tels que les personnes de la communauté ACCORD ou qui développent dans AROME).
   - L'écriture des fichiers au format LFI n'est plus supportée.
@@ -57,9 +59,7 @@ Développements en cours et récents
 
 
 Stage Méso-NH
-  - Le prochain stage Méso-NH est programmé du 10 au 13 mars 2026.
-  - Le stage se déroulera en hybride et en anglais.
-  - Envoyez un email à `Quentin Rodier <mailto:quentin.rodier@meteo.fr>`_ pour informations et inscriptions.
+  - Le stage Méso-NH du 10 au 13 mars 2026, en hybride et en anglais, s'est très bien passé. Pour cette session nous avions 23 participants (15 dans la salle et 8 ligne) : stagiaires, doctorant.es, postdocs et CDD (LAERO, CNRM GMME, CERFACS, LMD, Université de Reims, Universités d'Evora et de Lisbonne au Portugal, Institut Néel du CNRS à Grenoble) mais aussi chercheur.euses et ingénieur.es (Université de Varsovie en Pologne,  Université de Reims, CNAM / Laboratoire Géomatique et Foncier du Mans, Institut de recherche RISE de l'Université de Uppsala en Suède).
 
 .. note::
   Si vous avez des besoins, idées, améliorations à apporter, bugs à corriger ou suggestions concernant les entrées/sorties, `Philippe Wautelet <mailto:philippe.wautelet@cnrs.fr>`_ est toujours preneur.
