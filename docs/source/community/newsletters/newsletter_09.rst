@@ -14,7 +14,7 @@ Entretien avec `Quentin Rodier <mailto:quentin.rodier@meteo.fr>`_ (CNRM)
 |pic1|
 
 .. |pic1| image:: photo_qr.jpg
-  :width: 250
+  :width: 400
 
 Quentin, après un énorme travail, tu viens de publier la version 6 de Méso-NH. Peux-tu nous expliquer en quoi est-ce qu'elle est révolutionnaire ?
   La version 6.0.0 de Méso-NH est la première version officielle qui intègre le portage du code sur GPU. Depuis plus de 10 ans, le portage sur GPU de Méso-NH est en effet développé par le LAERO sur des branches en parallèle de la branche principale du code pour ne pas impacter les développements classiques. Avec le portage sur GPU de la physique Méso-NH utilisée dans AROME, qui a entraîné une réécriture conséquente de la physique atmosphérique dans le module externalisé PHYEX, la version 6.0.0 a permis de finaliser officiellement le portage GPU de Méso-NH et de consolider le code commun entre la physique Méso-NH et AROME. De nombreux nouveaux développements ont été intégrés, fruits de plusieurs années de recherche et développement de notre communauté. Je vous renvoie vers `la note de version <https://mesonh.readthedocs.io/en/latest/getting_started/releases/release_note_600.html>`_ qui est très riche et je vous encourage à en consulter les parties qui vous intéressent (il y en a forcément au moins une !).
