@@ -38,3 +38,5 @@ Newsletters
    newsletter_08_english.rst
 
    newsletter_09.rst
+
+   newsletter_09_english.rst
