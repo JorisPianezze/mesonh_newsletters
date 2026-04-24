@@ -43,23 +43,18 @@ Les nouvelles de l’équipe support
 ************************************
 
 Version 6
-  Les efforts de l'équipe se sont concentrés sur la parution de cette nouvelle version 6.
-  
-  - La préparation de la version 6.0.0 est en cours, sa sortie est imminente.
-  - La mise à jour de PHYEX dans Méso-NH est en cours. Cela nécessite le phasage des modifications de la version de PHYEX de Méso-NH vers le dépot central de PHYEX. Ensuite, la récupération de cette version sur le dépôt central et son implantation dans Méso-NH permet de récupérer les modifications de PHYEX réalisées par les autres contributeurs (tels que les personnes de la communauté ACCORD ou qui développent dans AROME).
-  - L'écriture des fichiers au format LFI n'est plus supportée.
-  - Dans les fichiers netCDF, les variables SURFEX sont à présent séparées dans un groupe spécifique.
-  - L'appel à RTTOV14 a été intégré pour l'étape de diagnostic et pour le calcul en ligne, l'appel à RTTOV13 a été enlevé.
-  - Les dernières optimisations du portage GPU sur différentes machines (cartes GPU AMD MI250X et MI300A sur Adastra) et APU NVIDIA ont été intégrées à la branche ``MNH-60-branch``.
-  - La dernière version du code d'éolienne (EOL-v2) et une mise à jour du couplage LIMA-ecRad-aérosols ont été intégrées à la branche ``MNH-60-branch``.
-  - Quelques mises à jour de la documentation ont été réalisées et le futur site technique de Méso-NH sera diffusé à l'occasion de la sortie de la version 6.
+  - Les efforts de l'équipe se sont concentrés sur la parution de cette nouvelle version 6 et des nouveaux sites web : `site vitrine <www.mesonh.cnrs.fr>`_ et `site de documentation technique <https://mesonh.readthedocs.io>`_ .
 
-Développements en cours et récents
-  - Des tests de Méso-NH en simple précision sont en cours sur tous les cas tests éligibles. Le passage en simple précision par défaut n'est pas encore acté et sera probablement repoussé à la version 6.1.
-
+Lancement du Forum des Utilisateur.ices de Méso-NH
+  Le premier forum des utilisateur.ices de Méso-NH aura lieu le **matin du mercredi 3 juin en salle Coriolis** de l'OMP (14 avenue Edouard Belin, Toulouse). Un pot sera organisé sur place à cette occasion ! Si vous comptez venir sur site, pouvez-vous s'il-vous-plaît `m'envoyer un email <maito:thibaut.dauhut@utoulouse.fr`_ pour que j'estime au plus proche le nombre de participant.es ? Merci !
 
 Stage Méso-NH
-  - Le stage Méso-NH du 10 au 13 mars 2026, en hybride et en anglais, s'est très bien passé. Pour cette session nous avions 23 participants (15 dans la salle et 8 ligne) : stagiaires, doctorant.es, postdocs et CDD (LAERO, CNRM GMME, CERFACS, LMD, Université de Reims, Universités d'Evora et de Lisbonne au Portugal, Institut Néel du CNRS à Grenoble) mais aussi chercheur.euses et ingénieur.es (Université de Varsovie en Pologne,  Université de Reims, CNAM / Laboratoire Géomatique et Foncier du Mans, Institut de recherche RISE de l'Université de Uppsala en Suède).
+  Le stage Méso-NH du 10 au 13 mars 2026, en hybride et en anglais, s'est très bien passé. Pour cette session nous avions 23 participants (15 dans la salle et 8 ligne) : stagiaires, doctorant.es, postdocs et CDD (LAERO, CNRM GMME, CERFACS, LMD, Université de Reims, Universités d'Evora et de Lisbonne au Portugal, Institut Néel du CNRS à Grenoble) mais aussi chercheur.euses et ingénieur.es (Université de Varsovie en Pologne,  Université de Reims, CNAM / Laboratoire Géomatique et Foncier du Mans, Institut de recherche RISE de l'Université de Uppsala en Suède).
+
+Autres nouvelles
+  - Le pôle technique du Service Méso-NH est animé à présent par Philippe Wautelet et Quentin Rodier.
+  - Une réflexion sur la gestion des branches du code est en cours de maturation dans l'équipe technique. Les buts sont d'être plus rigoureux, d'avoir une approche plus organisée et plus compréhensible.
+  - En particulier, une politique de durée de vie des branches et des versions de MésoNH va être expérimentée. La numérotation sera la même qu'actuellement en X-Y-Z avec X le numéro de version majeure, Y de version mineure et Z de bugfix. Chaque nouvelle version mineure sera maintenue pendant au moins 2 ans à partir de la sortie de la suivante. Cette maintenance consiste en la fourniture de correctifs (*bugfix*) qui seront propagés sur toutes les versions mineures concernées par le bug et dans la période de maintenance. Ces correctifs seront fournis par de nouvelles versions de Méso-NH (avec des numéros de Z croissants) et qui ne contiendront que des corrections. Les nouvelles fonctionnalités ne pourront être intégrées que dans de nouvelles versions mineures qui pourraient sortir de manière un peu plus fréquente qu'actuellement. Nous sommes ainsi en cours de préparation d'une version 5.7.3. Nous pensons que cette approche permettra d'assurer une certaine stabilité aux utilisateurs qui ont besoin de conserver une même version de MésoNH pendant plusieurs années tout en ayant accès à des améliorations. Ces versions *bugfix* devraient garantir d'obtenir les mêmes résultats pour une version mineure donnée (dans le même environnement de travail) aux corrections de bugs près.
 
 .. note::
   Si vous avez des besoins, idées, améliorations à apporter, bugs à corriger ou suggestions concernant les entrées/sorties, `Philippe Wautelet <mailto:philippe.wautelet@cnrs.fr>`_ est toujours preneur.
