@@ -1,7 +1,7 @@
 Infolettre #09
 ================================================
 
-**24 avril 2026.** Version française, English version `here <newsletter_08_english.html>`_.
+**24 avril 2026.** Version française, English version `here <newsletter_09_english.html>`_.
 
 
 Chers utilisateurs, chères utilisatrices de Méso-NH,
