@@ -14,7 +14,7 @@ Interview with `Quentin Rodier <mailto:quentin.rodier@meteo.fr>`_ (CNRM)
 |pic1|
 
 .. |pic1| image:: photo_qr.jpg
-  :width: 300
+  :width: 400
 
 Quentin, after a tremendous amount of work, you’ve just released version 6 of Meso-NH. Can you explain to us what makes it revolutionary?
   Version 6.0.0 of Meso-NH is the first official release to include the GPU porting of the code. For over 10 years, the GPU porting of Meso-NH has been developed by LAERO on branches parallel to the main code branch in order not to impact standard development. With the GPU porting of the Meso-NH physics engine used in AROME, which required a significant rewrite of the atmospheric physics in the externalized PHYEX module, version 6.0.0 officially completed the GPU porting of Meso-NH and consolidated the shared code between the Meso-NH and AROME physics engines. Numerous new developments have been integrated, the result of several years of research and development by our community. I refer you to the `release note <https://mesonh.readthedocs.io/en/latest/getting_started/releases/release_note_600.html>`_, which are very detailed, and I encourage everyone to have a look at the sections that interest them (there’s bound to be one!).
