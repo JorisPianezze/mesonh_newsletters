@@ -63,32 +63,28 @@ Autres nouvelles
 Dernières publications utilisant Méso-NH
 ****************************************************************************************
 
+Convection and organisation
+  - Effect of vertical wind shear on convective clouds: development, organization, and turbulence [`Bidou et al. <https://doi.org/10.5194/egusphere-2026-323>`_, *in discuss.*]
+  - Sensitivity of flower trade-wind cloud organisation to mesoscale atmospheric heterogeneities [`Dauhut et al. <https://doi.org/10.1002/qj.70141>`_, 2026]
+
+Cyclones and waterspouts
+  - On the tropical nature of an intense Mediterranean cyclone in the ocean-atmosphere system [`Brumer et al. <https://hal.science/hal-05444958v1>`_, *submitted*]
+  - Can hot water discharged from industrial processes enhance the likelihood of waterspouts? [`Capecchi et al. <https://doi.org/10.48550/arXiv.2603.24233>`_, *in press*]
+  - Orographic impacts of Réunion Island and Madagascar on heavy rainfall during Tropical Cyclone Batsirai (2022) [`Lee et al. <https://doi.org/10.5194/egusphere-2026-1893>`_, *in discuss.*]
+
 Fire meteorology
-  - Eulerian modelling of spotting using a coupled fire-atmosphere approach [`Alonso-Pinar et al. <https://doi.org/10.5194/egusphere-2025-4855>`_, *in discuss.*]
-  - Assessing wildfire dynamics during a megafire in Portugal using the MesoNH/ForeFire coupled model [`Campos et al., 2025 <https://doi.org/10.1002/qj.70075>`_]
-  - ForeFire: A Modular, Scriptable C++ Simulation Engine and Library for Wildland-Fire Spread [`Filippi et al., 2025 <https://doi.org/10.21105/joss.08680>`_]
+  - Wildfires in the Southern Amazon: Insights into Pyro-Convective Cloud Development from Two Case Studies in August 2021 [`Bezerra et al. <https://doi.org/10.3390/atmos17020173>`_, 2026]
+  - Numerical Investigation of Surface–Atmosphere Interaction and Fire Danger in Northern Portugal: Insights into the Wildfires on July 29, 2025 [`Couto et al. <https://doi.org/10.3390/fire9030111>`_, 2026]
 
-Global model evaluation and improvement
-  - Process-Level Evaluation of the Land-Atmosphere Interactions Within CNRM-CM6-1 Single-Column Model Configuration [`Bernard et al., 2025 <https://doi.org/10.1029/2025MS005090>`_]
-  - Prognostic modeling of total specific humidity variance induced by shallow convective clouds in a GCM [`d'Alençon et al. <https://doi.org/10.5194/egusphere-2025-5798>`_, *in discuss.*]
-  - Evaluation and improvement of a cold pool parameterization against Large Eddy Simulations [`Thiam et al. <https://doi.org/10.5194/egusphere-2025-5329>`_, *in discuss.*]
+Model development and parametrisations
+  - Meso-NH-ISO v1.0: a water stable isotopes scheme in the non-hydrostatic mesoscale atmospheric model Meso-NH. Application to a 2D West African squall line [`Barthe et al. <https://doi.org/10.5194/egusphere-2026-548>`_, *in discuss.*]
+  - Atmosphere, ocean, and coupled ocean–atmosphere models in a single code [`Redelsperger <https://doi.org/10.1002/qj.70133>`_, ]
+  - An update of shallow cloud parameterization in the AROME NWP model [`Marcel et al. <https://doi.org/10.5194/acp-26-3901-2026>`_, 2026]
 
-Microphysics
-  - Evaluation of the vertical microphysical properties of fog as simulated by Meso-NH during the SOFOG3D experiment [`Mazoyer et al. <https://doi.org/10.5194/egusphere-2025-5528>`_, *in discuss.*]
+Surface-atmosphere interactions
+  - PANAME-Urban campaign: investigating multiscale surface-atmosphere interactions and thermal-contrasts in the Paris region (France) [Lemonsu et al., *in press*]
+  - Impact of surface interactivity on the initiation of deep convection in the Sahel: A cloud-resolving model study [`Tomasini and Couvreux <https://doi.org/10.1016/j.atmosres.2026.108941>`_, 2026]
 
-Urban meteorology and Wind energy
-  - Numerical study of dust plume impact on urban thermal comfort [`Bernard et al. <https://doi.org/10.5194/egusphere-2025-4829>`_, *in discuss.*]
-  - A purely analytical and physical wind turbine wake model accounting for atmospheric stratification [`Noël et al. <https://doi.org/10.48550/arXiv.2510.17236>`_, *submitted*]
-
-PhD theses
-  - Modélisation multiéchelle des sautes de feu [`Alonso-Pinar, Université de Corte and University of Melbourne, 2025 <https://theses.fr/2025CORT0012>`_]
-  - Le rôle de la couche des alizés sahariens dans la cyclogenèse de l'Atlantique tropical [`Feger, Université de Toulouse, 2025 <https://theses.fr/s362119>`_]
-  - Le rôle des ondes d'est africaines dans la formation des cyclones tropicaux dans l'Atlantique [`Jonville, Sorbonne Université, 2025 <https://theses.fr/s383920>`_]
-  - Amélioration de la prévision du givrage par eau liquide surfondue [`July-Wormit, Université de Toulouse, 2025 <https://theses.fr/s362083>`_]
-  - Restitution de propriétés microphysiques et dynamiques de la convection profonde par satellite : préparation de la mission C²OMODO [`Lefebvre, Université Paris-Saclay, 2025 <https://theses.fr/s347512>`_]
-  - Amélioration de la représentation des stratocumulus et cumulus, ainsi que des précipitations associées, dans le modèle AROME [`Marcel, Université de Toulouse, 2025 <https://theses.fr/s362112>`_]
-  - Paramétrisation du soulèvement de poussières au Sahel par les poches froides [`Thiam, Sorbonne Université and Université Cheikh Anta Diop de Dakar, 2025 <https://theses.fr/s384690>`_]
-  - Modélisation des interactions aérosols - microphysique - électricité atmosphérique dans les systèmes de convection profonde [`Vongpaseut, Université de Toulouse, 2025 <https://theses.fr/s361984>`_]
 
 
 .. note::
