@@ -6,7 +6,7 @@ Newsletter #09
 
 Dear Meso-NH users,
 
-Here is the 9th newsletter from our community. You will find an interview with one member of Meso-NH support team, the latest news from the team, and a list of the latest publications and PhD theses using Meso-NH.
+Here is the 9th newsletter from our community. You will find an interview with one member of Meso-NH support team, the latest news from the team, and a list of the latest publications and PhD thesis using Meso-NH.
 
 Interview with `Quentin Rodier <mailto:quentin.rodier@meteo.fr>`_ (CNRM)
 *************************************************************************************************************************************
