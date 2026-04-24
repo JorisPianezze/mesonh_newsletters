@@ -8,13 +8,16 @@ Chers utilisateurs, chères utilisatrices de Méso-NH,
 
 Voici ci-dessous la 9ème infolettre de notre communauté. Vous y trouverez un entretien avec un membre de l'équipe support de Méso-NH, les dernières nouvelles de l’équipe et la liste des dernières publications et thèses utilisant Méso-NH.
 
-Entretien avec `Quentin Rodier <quentin.rodier@meteo.fr>`_ (CNRM)
+Entretien avec `Quentin Rodier <mailto:quentin.rodier@meteo.fr>`_ (CNRM)
 *************************************************************************************************************************************
 
 |pic1|
 
-.. |pic1| image:: photo_qr.png
+.. |pic1| image:: photo_qr.jpg
   :width: 250
+
+Quentin, après un énorme travail, tu viens de publier la version 6 de Méso-NH. Peux-tu nous expliquer en quoi est-ce qu'elle est révolutionnaire ?
+  La version 6.0.0 de Méso-NH est la première version officielle qui intègre le portage du code sur GPU. Depuis plus de 10 ans, le portage sur GPU de Méso-NH est en effet développé par le LAERO sur des branches en parallèle de la branche principale du code pour ne pas impacter les développements classiques. Avec le portage sur GPU de la physique Méso-NH utilisée dans AROME, qui a entraîné une réécriture conséquente de la physique atmosphérique dans le module externalisé PHYEX, la version 6.0.0 a permis de finaliser officiellement le portage GPU de Méso-NH et de consolider le code commun entre la physique Méso-NH et AROME. De nombreux nouveaux développements ont été intégrés, fruits de plusieurs années de recherche et développement de notre communauté. Je vous renvoie vers `la note de version <https://mesonh.readthedocs.io/en/latest/getting_started/releases/release_note_600.html>`_ qui est très riche et je vous encourage à consulter les parties qui vous intéressent (il y en a forcément une !).
 
 Quentin, tu as inclus en 2017 la possibilité d'utiliser le code ecRad pour la représentation du rayonnement dans Méso-NH, et Sophia, tu as contribué à mettre à jour la nouvelle version d'ecRad dans la prochaine version de Méso-NH avec Quentin Rodier. Pourriez-vous résumer ce que permet l'utilisation de ce code ?
   ecRad est le code de transfert radiatif utilisé dans IFS (Integrated Forecasting System, le modèle atmosphérique global de l’ECMWF, le Centre Européen pour les Prévisions Météorologiques à Moyen Terme). C'est avant tout un code à l'état-de-l'art qui permet d'utiliser des développements récents tant pour la résolution de l'équation du transfert radiatif (prise en compte des hétérogénéités sous-maille des nuages, paramétrisation des effets 3D sous-maille) que pour les propriétés optiques des aérosols et des nuages. A l'origine il s'appuyait sur les propriétés optiques des gaz telles que fournies par RRTM (Rapid Radiative Transfer Model) mais, depuis la version 1.6, il propose de nouvelles propriétés via l'option ecckd qui le rend particulièrement rapide. Son aspect modulaire le rend facile d'accès, tant pour son utilisation que pour contribuer à son développement. La conception modulaire permet de faire varier individuellement certaines parties du code, de tester l’impact de ces modifications et d'optimiser les réglages pour différentes applications.
