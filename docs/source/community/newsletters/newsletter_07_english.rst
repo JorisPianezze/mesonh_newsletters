@@ -101,8 +101,8 @@ Fire Meteorology
   - Synoptic and Regional Meteorological Drivers of a Wildfire in the Wildland–Urban Interface of Faro (Portugal) [`Couto et al. (2025) <https://doi.org/10.3390/fire8090362>`_]
 
 Microphysics and Precipitations
-  - Improving supercooled liquid water representation in LIMA using ICICLE data [July-Wormit et al., *accepted* in 2025, `2026 <https://doi.org/10.1002/qj.70030>`_]
-  - Localized precipitation enhancement induced by orography and wind dynamics in southern Réunion Island during Tropical Cyclone Batsirai [`Ramanamahefa et al. (2025) <https://doi.org/10.2139/ssrn.5529525>`_]
+  - Improving supercooled liquid water representation in LIMA using ICICLE data [July-Wormit et al., *accepted* in 2025 (`2026 <https://doi.org/10.1002/qj.70030>`_)]
+  - Localized precipitation enhancement induced by orography and wind dynamics in southern Réunion Island during Tropical Cyclone Batsirai [`Ramanamahefa et al. (2026) <https://doi.org/10.2139/ssrn.5529525>`_]
   - Model intercomparison of the impacts of varying cloud droplet nucleating aerosols on the lifecycle and microphysics of isolated deep convection [`Saleeby et al. (2025) <https://doi.org/10.1175/JAS-D-24-0181.1>`_]
 
 Volcanic plume and Chemistry
