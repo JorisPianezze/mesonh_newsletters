@@ -85,6 +85,8 @@ Surface-atmosphere interactions
   - PANAME-Urban campaign: investigating multiscale surface-atmosphere interactions and thermal-contrasts in the Paris region (France) [Lemonsu et al., *in press* 2026]
   - Impact of surface interactivity on the initiation of deep convection in the Sahel: A cloud-resolving model study [`Tomasini and Couvreux <https://doi.org/10.1016/j.atmosres.2026.108941>`_, 2026]
 
+PhD thesis
+  - Microphysique et propriétés optiques des nuages de glace dans le visible et l’infrarouge appliquées au transfert radiatif pour l’observation satellitaire opérationnelle [`Joseph <https://theses.fr/s361932>`_, Université de Toulouse, 2026]
 
 
 .. note::
