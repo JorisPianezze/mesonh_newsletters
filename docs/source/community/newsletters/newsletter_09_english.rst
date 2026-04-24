@@ -6,7 +6,7 @@ Newsletter #09
 
 Dear Meso-NH users,
 
-Here is the 9th newsletter from our community. You will find an interview with on member of Meso-NH support team, the latest news from the team, and a list of the latest publications and PhD theses using Meso-NH.
+Here is the 9th newsletter from our community. You will find an interview with one member of Meso-NH support team, the latest news from the team, and a list of the latest publications and PhD theses using Meso-NH.
 
 Interview with `Quentin Rodier <mailto:quentin.rodier@meteo.fr>`_ (CNRM)
 *************************************************************************************************************************************
@@ -39,23 +39,18 @@ News from the support team
 ************************************
 
 Version 6
-  - Version 6.0.0 is currently being prepared and will be released shortly.
-  - The PHYEX update in Meso-NH is currently underway. This requires the phasing of changes from the Meso-NH version of PHYEX to the central PHYEX repository. Then, retrieving this version from the central repository and implementing it in Meso-NH allows us to retrieve the PHYEX changes made by other contributors (such as members of the ACCORD community or those developing in AROME).
-  - Writing files in LFI format is no longer supported.
-  - In netCDF files, SURFEX variables are now separated into a specific group.
-  - The call to RTTOV14 has been integrated for the diagnostic step and for online calculation, the call to RTTOV13 has been removed.
-  - The latest optimisations of GPU porting on different machines (AMD MI250X and MI300A GPU on Adastra) and NVIDIA APUs have been integrated into the ``MNH-60-branch`` branch.
-  - The latest version of the wind turbine code (EOL-v2) and an update to the LIMA-ecRad-aerosols coupling have been integrated into the ``MNH-60-branch`` branch.
-  - Some updates to the documentation have been made and the future Meso-NH technical website will be launched when version 6 is released.
+  The team's efforts have been focused on the release of this new version 6 and of the new websites: main website and technical website.
 
-Current and recent developments
-  - Single-precision Meso-NH tests are currently being conducted on all eligible test cases. The switch to single precision by default has not yet been finalised and will likely be postponed until version 6.1.
+Launch of the Meso-NH Users' Forum
+  The first Meso-NH users' forum will take place on the **morning of Wednesday 3 June in the Coriolis room** at OMP (14 avenue Edouard Belin, Toulouse). A reception will be held on site on this occasion! If you plan to come in person, could you please send me `an email <mailto:thibaut.dauhut@utoulouse.fr>`_ so that I can estimate the number of participants as accurately as possible? Thank you!
 
+Meso-NH Training Course
+  The Meso-NH training course held from 10 to 13 March 2026, in hybrid format and in English, went very well. For this session we had 23 participants (15 on site and 8 online): trainees, PhD students, postdocs and fixed-term staff (LAERO, CNRM GMME, CERFACS, LMD, University of Reims, Universities of Évora and Lisbon in Portugal, Institut Néel of CNRS in Grenoble), as well as researchers and engineers (University of Warsaw in Poland, University of Reims, CNAM – Geomatics and Land Laboratory in Le Mans, RISE Research Institute at Uppsala University in Sweden).
 
-Meso-NH training course
-  - The next Meso-NH training course is scheduled for 10 to 13 March 2026.
-  - The course will be held in a hybrid format and in English.
-  - Send an email to `Quentin Rodier <mailto:quentin.rodier@meteo.fr>`_ for information and registration.
+Other news
+  - The technical team of the Meso-NH Service is now led by Philippe Wautelet and Quentin Rodier.
+  - A policy on the lifetime of Meso-NH branches and versions will be trialled, in order to provide a degree of stability for users who need to keep the same version of Meso-NH for several years while still having access to improvements. The numbering will remain the same as at present, in the form X-Y-Z, where X is the major version number, Y the minor version number and Z the bugfix number. Each new minor version will be maintained for at least two years from the release of the following one (for example, a version 5.7.3 is currently being prepared). Bugfix releases with increasing Z numbers will contain only corrections and should guarantee identical results for a given minor version (in the same working environment), up to bug fixes. New features will only be incorporated into new minor versions, which should be released somewhat more frequently than at present.
+  - Thought is being given within the technical team to the management of code branches, with the aim of making it more rigorous, organised and understandable.
 
 .. note::
   If you have any requirements, ideas, improvements to make, bugs to fix or suggestions regarding inputs/outputs, `Philippe Wautelet <mailto:philippe.wautelet@cnrs.fr>`_ is always interested.
@@ -63,39 +58,36 @@ Meso-NH training course
 Latest publications using Meso-NH
 ************************************
 
+Convection and organisation
+  - Effect of vertical wind shear on convective clouds: development, organization, and turbulence [`Bidou et al. <https://doi.org/10.5194/egusphere-2026-323>`_, *in discuss.*]
+  - Sensitivity of flower trade-wind cloud organisation to mesoscale atmospheric heterogeneities [`Dauhut et al. <https://doi.org/10.1002/qj.70141>`_, 2026]
+
+Cyclones and waterspouts
+  - On the tropical nature of an intense Mediterranean cyclone in the ocean-atmosphere system [`Brumer et al. <https://hal.science/hal-05444958v1>`_, *submitted*]
+  - Can hot water discharged from industrial processes enhance the likelihood of waterspouts? [`Capecchi et al. <https://doi.org/10.48550/arXiv.2603.24233>`_, *in press* 2026]
+  - Orographic impacts of Réunion Island and Madagascar on heavy rainfall during Tropical Cyclone Batsirai (2022) [`Lee et al. <https://doi.org/10.5194/egusphere-2026-1893>`_, *in discuss.*]
+
 Fire meteorology
-  - Eulerian modelling of spotting using a coupled fire-atmosphere approach [`Alonso-Pinar et al. <https://doi.org/10.5194/egusphere-2025-4855>`_, *in discuss.*]
-  - Assessing wildfire dynamics during a megafire in Portugal using the MesoNH/ForeFire coupled model [`Campos et al., 2025 <https://doi.org/10.1002/qj.70075>`_]
-  - ForeFire: A Modular, Scriptable C++ Simulation Engine and Library for Wildland-Fire Spread [`Filippi et al., 2025 <https://doi.org/10.21105/joss.08680>`_]
+  - Wildfires in the Southern Amazon: Insights into Pyro-Convective Cloud Development from Two Case Studies in August 2021 [`Bezerra et al. <https://doi.org/10.3390/atmos17020173>`_, 2026]
+  - Numerical Investigation of Surface–Atmosphere Interaction and Fire Danger in Northern Portugal: Insights into the Wildfires on July 29, 2025 [`Couto et al. <https://doi.org/10.3390/fire9030111>`_, 2026]
 
-Global model evaluation and improvement
-  - Process-Level Evaluation of the Land-Atmosphere Interactions Within CNRM-CM6-1 Single-Column Model Configuration [`Bernard et al., 2025 <https://doi.org/10.1029/2025MS005090>`_]
-  - Prognostic modeling of total specific humidity variance induced by shallow convective clouds in a GCM [`d'Alençon et al. <https://doi.org/10.5194/egusphere-2025-5798>`_, *in discuss.*]
-  - Evaluation and improvement of a cold pool parameterization against Large Eddy Simulations [`Thiam et al. <https://doi.org/10.5194/egusphere-2025-5329>`_, *in discuss.*]
+Model development and parametrisations
+  - Meso-NH-ISO v1.0: a water stable isotopes scheme in the non-hydrostatic mesoscale atmospheric model Meso-NH. Application to a 2D West African squall line [`Barthe et al. <https://doi.org/10.5194/egusphere-2026-548>`_, *in discuss.*]
+  - Atmosphere, ocean, and coupled ocean–atmosphere models in a single code [`Redelsperger <https://doi.org/10.1002/qj.70133>`_, 2026]
+  - An update of shallow cloud parameterization in the AROME NWP model [`Marcel et al. <https://doi.org/10.5194/acp-26-3901-2026>`_, 2026]
 
-Microphysics
-  - Evaluation of the vertical microphysical properties of fog as simulated by Meso-NH during the SOFOG3D experiment [`Mazoyer et al. <https://doi.org/10.5194/egusphere-2025-5528>`_, *in discuss.*]
+Surface-atmosphere interactions
+  - PANAME-Urban campaign: investigating multiscale surface-atmosphere interactions and thermal-contrasts in the Paris region (France) [Lemonsu et al., *in press* 2026]
+  - Impact of surface interactivity on the initiation of deep convection in the Sahel: A cloud-resolving model study [`Tomasini and Couvreux <https://doi.org/10.1016/j.atmosres.2026.108941>`_, 2026]
 
-Urban meteorology and Wind energy
-  - Numerical study of dust plume impact on urban thermal comfort [`Bernard et al. <https://doi.org/10.5194/egusphere-2025-4829>`_, *in discuss.*]
-  - A purely analytical and physical wind turbine wake model accounting for atmospheric stratification [`Noël et al. <https://doi.org/10.48550/arXiv.2510.17236>`_, *submitted*]
-
-PhD theses
-  - Modélisation multiéchelle des sautes de feu [`Alonso-Pinar, Université de Corte and University of Melbourne, 2025 <https://theses.fr/2025CORT0012>`_]
-  - Le rôle de la couche des alizés sahariens dans la cyclogenèse de l'Atlantique tropical [`Feger, Université de Toulouse, 2025 <https://theses.fr/s362119>`_]
-  - Le rôle des ondes d'est africaines dans la formation des cyclones tropicaux dans l'Atlantique [`Jonville, Sorbonne Université, 2025 <https://theses.fr/s383920>`_]
-  - Amélioration de la prévision du givrage par eau liquide surfondue [`July-Wormit, Université de Toulouse, 2025 <https://theses.fr/s362083>`_]
-  - Restitution de propriétés microphysiques et dynamiques de la convection profonde par satellite : préparation de la mission C²OMODO [`Lefebvre, Université Paris-Saclay, 2025 <https://theses.fr/s347512>`_]
-  - Amélioration de la représentation des stratocumulus et cumulus, ainsi que des précipitations associées, dans le modèle AROME [`Marcel, Université de Toulouse, 2025 <https://theses.fr/s362112>`_]
-  - Paramétrisation du soulèvement de poussières au Sahel par les poches froides [`Thiam, Sorbonne Université and Université Cheikh Anta Diop de Dakar, 2025 <https://theses.fr/s384690>`_]
-  - Modélisation des interactions aérosols - microphysique - électricité atmosphérique dans les systèmes de convection profonde [`Vongpaseut, Université de Toulouse, 2025 <https://theses.fr/s361984>`_]
-
+PhD thesis
+  - Microphysique et propriétés optiques des nuages de glace dans le visible et l’infrarouge appliquées au transfert radiatif pour l’observation satellitaire opérationnelle [`Joseph <https://theses.fr/s361932>`_, Université de Toulouse, 2026]
 
 .. note::
 
   If you would like to share with the community the fact that one of your projects using Meso-NH has been funded, or any other information about your work (including posters and presentations *available online*), please do not hesitate to write to `me <mailto:thibaut.dauhut@utoulouse.fr>`_. I also always appreciate your feedback on the newsletters.
 
-Happy simulating with Meso-NH!
+Happy simulations with Meso-NH!
 
 See you soon,
 
