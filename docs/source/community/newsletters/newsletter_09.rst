@@ -43,7 +43,7 @@ Les nouvelles de l’équipe support
 ************************************
 
 Version 6
-  - Les efforts de l'équipe se sont concentrés sur la parution de cette nouvelle version 6 et des nouveaux sites web : `site vitrine <www.mesonh.cnrs.fr>`_ et `site de documentation technique <https://mesonh.readthedocs.io>`_ .
+  Les efforts de l'équipe se sont concentrés sur la parution de cette nouvelle `version 6 <https://mesonh.readthedocs.io/en/latest/getting_started/releases/release_note_600.html>`_ et des nouveaux sites web : `site vitrine <www.mesonh.cnrs.fr>`_ et `site technique <https://mesonh.readthedocs.io>`_ .
 
 Lancement du Forum des Utilisateur.ices de Méso-NH
   Le premier forum des utilisateur.ices de Méso-NH aura lieu le **matin du mercredi 3 juin en salle Coriolis** de l'OMP (14 avenue Edouard Belin, Toulouse). Un pot sera organisé sur place à cette occasion ! Si vous comptez venir sur site, pouvez-vous s'il-vous-plaît `m'envoyer un email <maito:thibaut.dauhut@utoulouse.fr`_ pour que j'estime au plus proche le nombre de participant.es ? Merci !
