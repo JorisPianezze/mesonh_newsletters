@@ -1,9 +1,11 @@
 Welcome to Meso-NH's newsletters !
 ===================================
 
-.. note::
 
-   New Meso-NH's website is under development.
+.. warning::
+
+   * This website was created for its development phase and will soon be removed.
+   * Please go to https://mesonh.readthedocs.io/en/mnh-master/community/newsletters/newsletters.html
 
 .. toctree::
    :maxdepth: 2
