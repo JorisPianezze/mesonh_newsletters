@@ -43,7 +43,7 @@ Médaille de Cristal du CNRS pour Juan !
 
 Version 5.7.2
   - La version 5.7.2 est sortie, elle contient de nombreux commits et certaines corrections importantes.
-  - Tous les détails sont présentés `ici <https://mesonh-beta-test-guide.readthedocs.io/en/latest/getting_started/releases/release_note_572.html>`_ dans la note associée à sa sortie.
+  - Tous les détails sont présentés `ici <https://mesonh.readthedocs.io/en/latest/getting_started/releases/release_note_572.html>`_ dans la note associée à sa sortie.
 
 Version 6
   - La préparation de la version 6 est toujours en cours, la branche de travail MNH-60-branch a été déclarée. 
