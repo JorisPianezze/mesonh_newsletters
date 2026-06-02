@@ -7,7 +7,7 @@ Forum #01 des Utilisateurs et Utilisatrices
 Programme de la matinée
 
 Présentation de notre nouvelle organisation autour de Méso-NH et du Forum
-  *Thibaut*		
+  - *Thibaut*		
 
 Présentation de la version 6 de Méso-NH
   questions et échanges sur le changement de version et le contenu de la v6 - *Quentin*
