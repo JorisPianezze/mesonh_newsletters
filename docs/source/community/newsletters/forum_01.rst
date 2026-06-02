@@ -5,6 +5,7 @@ Forum #01 des Utilisateurs et Utilisatrices
 
 
 Programme de la matinée
+------------------------
 
 Présentation de notre nouvelle organisation autour de Méso-NH et du Forum
   - *Thibaut*		
@@ -19,3 +20,4 @@ Teasing d'une interface graphique pour la configuration et l'utilisation de Més
   *Quentin*
 
 Buffet cocktail pour le déjeuner
+-----------------------------------
