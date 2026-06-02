@@ -40,3 +40,5 @@ Newsletters
    newsletter_09.rst
 
    newsletter_09_english.rst
+
+   forum_01.rst
