@@ -44,3 +44,8 @@ Quelles sont les limites actuelles ? As-tu des perspectives de développements f
   Ensuite cette première version va servir de base à de nombreux développement futurs, notamment l’implémentation dans l’étape diagnostic de Méso-NH de post-traitements dédiés aux cyclones tropicaux. 
 
   Enfin, comme un des axes de recherche au LACy porte sur les interactions océan-atmosphère, l’idée est de pouvoir à terme appliquer cet outil sur les sorties de modèle d’océan et de vagues issue de simulations couplées afin d’avoir une vue d’ensemble des interactions de ces trois compartiments.
+
+
+.. note::
+
+  Si vous aussi vous souhaitez expliquer un développement que vous avez mis en place dans Méso-NH, ou une méthode d’analyse que vous partagez à la communauté, n’hésitez pas à me le signaler par `mail <mailto:thibaut.dauhut@utoulouse.fr>`_.
