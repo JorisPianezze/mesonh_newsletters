@@ -13,6 +13,6 @@ Entretien avec `Clément Soufflet <mailto:quentin.rodier@meteo.fr>`_ (LACy)
 
 |pic1|
 
-.. |pic1| image:: photo_cs.jpg
+.. |pic1| image:: photo_cs.png
   :width: 400
 
