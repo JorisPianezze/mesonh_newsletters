@@ -18,7 +18,9 @@ Entretien avec `Clément Soufflet <mailto:clement.soufflet@univ-reunion.fr>`_ (L
 
 Clément, tu as développé FrameIt pour faciliter l’analyse de simulations de cyclones. FrameIt est particulièrement adapté pour les utilisateur.ices de Méso-NH. Pourrais-tu résumer ce que fait cet outil ?
   Dans sa première version FrameIt est orienté comme un outil de gestion de données de sortie modèle entièrement codé en Python et basé sur la librairie xarray. L'idée du développement de FrameIt vient de l’analyse de simulations de cyclone pour lesquelles un grand domaine est nécessaire mais seul une petite partie (le cyclone) nous intéresse vraiment.
+
   FrameIt permet d’extraire un sous domaine mobile (ou fixe) dans le temps, centré sur un objet météorologique (par exemple un cyclone), tout en sélectionnant les variables et les niveaux verticaux d’intérêt. Ce sous domaine est aussi disponible en coordonnée polaire centré sur l’objet étudié. En sortie on obtient une série de fichiers netcdf très léger, triés par système de coordonnées et par dimension, sur le sous-domaine voulu, contenant tous les pas de temps de la simulation.
+
   À noter que FrameIt peut aussi bien traiter des fichiers netcdf venant de Méso-NH que des fichiers grib issue du modèle AROME.
 
 En quoi est-ce que cela facilite la vie aux modélisateur.ices ? Que permet de faire FrameIt que les scripts habituels d’analyse ne permettent pas ?
